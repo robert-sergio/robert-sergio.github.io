@@ -38,7 +38,7 @@
 
   div.backgroundimage,
   .backgroundimage {
-    height: 50%;
+    height: 40%;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
