@@ -19,6 +19,10 @@
     position: relative;
 }
 
+.back_test{
+  height: "90%";
+}
+
 .carousel-center {
     margin: 0;
     position: absolute;
