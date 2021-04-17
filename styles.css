@@ -23,6 +23,10 @@
   height: "90%";
 }
 
+.img_test {
+  height: min-content;
+}
+
 .carousel-center {
     margin: 0;
     position: absolute;
