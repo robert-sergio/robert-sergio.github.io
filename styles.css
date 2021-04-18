@@ -1,3 +1,14 @@
+.centralizar {
+  /* border-radius: 25%; */
+  margin-left: auto;
+  margin-right: auto
+}
+
+.centralizar_texto {
+  text-align: center;
+}
+
+
 .foto {
     border-radius: 50%;
     width:150px;
@@ -27,7 +38,7 @@
   height: min-content;
 }
 
-.carousel-center {
+  .carousel-center {
     margin: 0;
     position: absolute;
     top: 50%;

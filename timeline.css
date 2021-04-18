@@ -7,7 +7,7 @@
     display: block;
     clear: both;
 }
-.main-timeline:before{
+/* .main-timeline:before{
     content: '';
     border-left: 7px dotted #474050;
     height: 100%;
@@ -17,7 +17,7 @@
     left: 50%;
     top: 0;
     z-index: 1;
-}
+} */
 .main-timeline .timeline{ margin: 0 0 30px 0; }
 .main-timeline .timeline-content{
     color: #999;
@@ -58,7 +58,7 @@
     z-index: 1;
 }
 .main-timeline .inner-content{ padding: 20px; }
-.main-timeline .title{
+.main-timeline .title{ 
     color: #474050;
     font-size: 20px;
     font-weight: 700;
