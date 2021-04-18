@@ -33,7 +33,7 @@
 .main-timeline .timeline-content:hover{ text-decoration: none; }
 .main-timeline .timeline-year{
     color: #fff;
-    background-color: #474050;
+    background-color: rgb(62, 108, 146);
     font-size: 30px;
     font-weight: 700;
     padding: 10px 20px;
@@ -45,7 +45,7 @@
 }
 .main-timeline .timeline-icon{
     color: #fff;
-    background: #ff5a44;
+    background: rgba(218, 165, 32, 1);
     font-size: 50px;
     line-height: 103px;
     width: 100px;
@@ -79,9 +79,9 @@
     left: auto;
     right: 20%;
 }
-.main-timeline .timeline:nth-child(4n+2) .timeline-icon{ background-color: #fc7f25; }
-.main-timeline .timeline:nth-child(4n+3) .timeline-icon{ background-color: #8358b5; }
-.main-timeline .timeline:nth-child(4n+4) .timeline-icon{ background-color: #a7d815; }
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon{ background-color: rgba(218, 165, 32, 0.9); }
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon{ background-color: rgba(218, 165, 32, 0.7); }
+.main-timeline .timeline:nth-child(4n+4) .timeline-icon{ background-color: rgba(218, 165, 32, 0.5); }
 @media screen and (max-width:767px){
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(even) .timeline-content{
