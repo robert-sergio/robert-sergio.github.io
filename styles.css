@@ -29,15 +29,15 @@
     position: relative;
 }
 
-.back_test{
+/* .back_test{
   height: "90%";
 }
 
 .img_test {
   height: min-content;
-}
+} */
 
-  .carousel-center {
+.carousel-center {
     margin: 0;
     position: absolute;
     top: 50%;
