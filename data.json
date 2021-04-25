@@ -2,7 +2,7 @@
     {
         "idioma": "Idioma",
 
-        "sobre" : "Sobre Mim", 
+        "sobre" : "Sobre mim", 
         "sobre_p1" : "Sou autodidata e me interesso por diversas áreas acadêmicas, por isso estou sempre em busca de novos desafios.",
         "sobre_p2" : "Sou formado em Engenharia de controle e automação pela univerdidade Estácio de Sá (2018)",
         "sobre_p3" : "Sou programador Python há dois anos com a intenção de atuar com Data Science e Machine Learning",
@@ -14,8 +14,127 @@
         ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)"
 
         ,"habilidades": "Habilidades"
-        
 
+        ,"programacao": "Programação e Cloud Computing"
+        ,"analise": "Análise de dados"
+        ,"processos": "Processos e Projetos"
+        ,"iot": "IoT - Internet das Coisas"
+
+        ,"p1_r1_c1": "Python 3"
+        ,"p1_r1_c2": "Flask"
+        ,"p1_r1_c3": "Django"
+        ,"p1_r1_c4": "Git"
+        ,"p1_r1_c5": "Github"
+        ,"p1_r2_c1": "Docker"
+        ,"p1_r2_c2": "Linux"
+        ,"p1_r2_c3": "Azure"
+        ,"p1_r2_c4": "Kivy"
+        ,"p1_r2_c5": "OpenCV"
+        ,"p1_r3_c1": "Selenium"
+        ,"p1_r3_c2": "Jenkins"
+        ,"p1_r3_c3": "VBA"
+        ,"p1_r3_c4": "SQL Server"
+        ,"p1_r3_c5": "Bootstrap"
+
+
+        ,"p2_r1_c1": "MS Excel"
+        ,"p2_r1_c2": "MS Access"
+        ,"p2_r1_c3": "SQL Server"
+        ,"p2_r1_c4": "Pandas"
+        ,"p2_r1_c5": "Tableau"
+        ,"p2_r2_c1": "Power BI"
+        ,"p2_r2_c2": "Pytorch"
+        ,"p2_r2_c3": "Tensor Flow"
+        ,"p2_r2_c4": "ETL"
+        ,"p2_r2_c5": "Tableau Prep Builder"
+        ,"p2_r3_c1": ""
+        ,"p2_r3_c2": ""
+        ,"p2_r3_c3": ""
+        ,"p2_r3_c4": ""
+        ,"p2_r3_c5": ""
+
+
+        ,"p3_r1_c1": "Mapeamento de Processos"
+        ,"p3_r1_c2": "BIZAGI"
+        ,"p3_r1_c3": "Kanban"
+        ,"p3_r1_c4": "Scrum"
+        ,"p3_r1_c5": "Lean"
+        ,"p3_r2_c1": "Resolução de problemas"
+        ,"p3_r2_c2": "Automação de Processos"
+        ,"p3_r2_c3": "RPA"
+        ,"p3_r2_c4": "Jira"
+        ,"p3_r2_c5": "Trello"
+        ,"p3_r3_c1": ""
+        ,"p3_r3_c2": ""
+        ,"p3_r3_c3": ""
+        ,"p3_r3_c4": ""
+        ,"p3_r3_c5": ""
+
+
+        ,"p4_r1_c1": "Arduino"
+        ,"p4_r1_c2": "Raspberry"
+        ,"p4_r1_c3": "Segurança Eletrônica"
+        ,"p4_r1_c4": "CLP"
+        ,"p4_r1_c5": "Instalações Elétricas"
+        ,"p4_r2_c1": "Pneumática"
+        ,"p4_r2_c2": "Hidráulica"
+        ,"p4_r2_c3": "Sensorização"
+        ,"p4_r2_c4": "Sistemas Embarcados"
+        ,"p4_r2_c5": "Apps Android"
+        ,"p4_r3_c1": ""
+        ,"p4_r3_c2": ""
+        ,"p4_r3_c3": ""
+        ,"p4_r3_c4": ""
+        ,"p4_r3_c5": ""
+
+
+        ,"experiencia": "Experiencia"
+
+        ,"atual_ano":"Out 2019"
+        ,"atual_cargo":"Analista de Processos Pleno | DASA"
+        ,"atual_desc":"Atualmente trabalho no setor de recebíveis desenvolvendo RPAs, um sistema orquestrador baseado em Python/Django e Macros"
+
+        ,"ultimo_ano":"Abr 2019"
+        ,"ultimo_cargo":"Analista de Planejamento e Performance Jr. | DASA"
+        ,"ultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo e tratando arquivos de inteligencia financeira para criação de painéis de gráficos e insights no Tableau"
+
+        ,"penultimo_ano":"Jul 2018"
+        ,"penultimo_cargo":"Analista Financeiro | DASA"
+        ,"penultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo Macros de Excel para agilizar as atividades do setor"
+
+        ,"antepenultimo_ano":"2014"
+        ,"antepenultimo_cargo":"SUPORTE TÉCNICO | HENRY EQUIPAMENTOS"
+        ,"antepenultimo_desc":"Trabalhei realizando suporte técnico presencial e remoto de aparelhos de ponto eletronico, controladoras de acesso e catracas."
+
+
+        ,"projetos":"Projetos Pessoais"
+        ,"titulo_proj_1":"Apps Multiplataformas Python/Kivy"
+        ,"proj_1_1":"Calculadora"
+        ,"proj_1_2":"Bloco de Notas"
+        ,"proj_1_3":"Tradutor de voz em tempo Real"
+        ,"proj_1_4":"Realidade aumentada"
+        ,"proj_1_5":"Agendador de viagens com integração ao Google Maps"
+
+        ,"titulo_proj_2":"Analise de Imagens com Python/Open CV"
+        ,"proj_2_1":"Reconhecimento de objetos"
+        ,"proj_2_2":"Reconhecimento de faces"
+        ,"proj_2_3":"Reconhecimento em vídeos"
+        ,"proj_2_4":"Realidade Aumentada"
+        ,"proj_2_5":"Experiencias com imagens Multi Espectrais"
+
+        ,"titulo_proj_3":"Machine Learning"
+        ,"proj_3_1":"Magnólia - Assistente Pessoal"
+        ,"proj_3_2":""
+        ,"proj_3_3":""
+        ,"proj_3_4":""
+        ,"proj_3_5":""
+
+        ,"titulo_proj_4":"IoT"
+        ,"proj_4_1":"Monitoramento de Temperatura"
+        ,"proj_4_2":""
+        ,"proj_4_3":""
+        ,"proj_4_4":""
+        ,"proj_4_5":""
 
     },
 
@@ -35,6 +154,93 @@
 
         ,"habilidades": "Skills"
 
+        ,"programacao": "Programming and Cloud Computing"
+        ,"analise": "Data Analyzing"
+        ,"processos": "Proccesses and Projects"
+        ,"iot": "IoT"
+
+        ,"p1_r1_c1": "Python 3"
+        ,"p1_r1_c2": "Flask"
+        ,"p1_r1_c3": "Django"
+        ,"p1_r1_c4": "Git"
+        ,"p1_r1_c5": "Github"
+
+        ,"p1_r2_c1": "Docker"
+        ,"p1_r2_c2": "Linux"
+        ,"p1_r2_c3": "Azure"
+        ,"p1_r2_c4": "Kivy"
+        ,"p1_r2_c5": "OpenCV"
+
+        ,"p1_r3_c1": "Selenium"
+        ,"p1_r3_c2": "Jenkins"
+        ,"p1_r3_c3": "VBA"
+        ,"p1_r3_c4": "SQL Server"
+        ,"p1_r3_c5": "Bootstrap"
+
+
+
+
+
+        ,"p2_r1_c1": "MS Excel"
+        ,"p2_r1_c2": "MS Access"
+        ,"p2_r1_c3": "SQL Server"
+        ,"p2_r1_c4": "Pandas"
+        ,"p2_r1_c5": "Tableau"
+
+        ,"p2_r2_c1": "Power BI"
+        ,"p2_r2_c2": "Pytorch"
+        ,"p2_r2_c3": "Tensor Flow"
+        ,"p2_r2_c4": "ETL"
+        ,"p2_r2_c5": "Tableau Prep Builder"
+
+        ,"p2_r3_c1": ""
+        ,"p2_r3_c2": ""
+        ,"p2_r3_c3": ""
+        ,"p2_r3_c4": ""
+        ,"p2_r3_c5": ""
+
+
+
+        ,"p3_r1_c1": "MS Excel"
+        ,"p3_r1_c2": "MS Access"
+        ,"p3_r1_c3": "SQL Server"
+        ,"p3_r1_c4": "Pandas"
+        ,"p3_r1_c5": "Tableau"
+
+        ,"p3_r2_c1": "Power BI"
+        ,"p3_r2_c2": "Pytorch"
+        ,"p3_r2_c3": "Tensor Flow"
+        ,"p3_r2_c4": "ETL"
+        ,"p3_r2_c5": "Tableau Prep Builder"
+
+        ,"p3_r3_c1": ""
+        ,"p3_r3_c2": ""
+        ,"p3_r3_c3": ""
+        ,"p3_r3_c4": ""
+        ,"p3_r3_c5": ""
+
+
+
+
+
+
+        ,"p4_r1_c1": "MS Excel"
+        ,"p4_r1_c2": "MS Access"
+        ,"p4_r1_c3": "SQL Server"
+        ,"p4_r1_c4": "Pandas"
+        ,"p4_r1_c5": "Tableau"
+
+        ,"p4_r2_c1": "Power BI"
+        ,"p4_r2_c2": "Pytorch"
+        ,"p4_r2_c3": "Tensor Flow"
+        ,"p4_r2_c4": "ETL"
+        ,"p4_r2_c5": "Tableau Prep Builder"
+
+        ,"p4_r3_c1": ""
+        ,"p4_r3_c2": ""
+        ,"p4_r3_c3": ""
+        ,"p4_r3_c4": ""
+        ,"p4_r3_c5": ""
     },
 
     {
@@ -52,6 +258,92 @@
         ,"formacao_p1":""
 
         ,"habilidades": "Habilidades"
+
+        ,"programacao": "Programacion and Cloud Computing"
+        ,"analise": "Análisis de datos"
+        ,"processos": "Procesos y Proyectos"
+        ,"iot": "IoT"
+
+        ,"p1_r1_c1": "Python 3"
+        ,"p1_r1_c2": "Flask"
+        ,"p1_r1_c3": "Django"
+        ,"p1_r1_c4": "Git"
+        ,"p1_r1_c5": "Github"
+
+        ,"p1_r2_c1": "Docker"
+        ,"p1_r2_c2": "Linux"
+        ,"p1_r2_c3": "Azure"
+        ,"p1_r2_c4": "Kivy"
+        ,"p1_r2_c5": "OpenCV"
+
+        ,"p1_r3_c1": "Selenium"
+        ,"p1_r3_c2": "Jenkins"
+        ,"p1_r3_c3": "VBA"
+        ,"p1_r3_c4": "SQL Server"
+        ,"p1_r3_c5": "Bootstrap"
+
+        ,"p2_r1_c1": "MS Excel"
+        ,"p2_r1_c2": "MS Access"
+        ,"p2_r1_c3": "SQL Server"
+        ,"p2_r1_c4": "Pandas"
+        ,"p2_r1_c5": "Tableau"
+
+        ,"p2_r2_c1": "Power BI"
+        ,"p2_r2_c2": "Pytorch"
+        ,"p2_r2_c3": "Tensor Flow"
+        ,"p2_r2_c4": "ETL"
+        ,"p2_r2_c5": "Tableau Prep Builder"
+
+        ,"p2_r3_c1": ""
+        ,"p2_r3_c2": ""
+        ,"p2_r3_c3": ""
+        ,"p2_r3_c4": ""
+        ,"p2_r3_c5": ""
+
+
+
+
+        ,"p3_r1_c1": "MS Excel"
+        ,"p3_r1_c2": "MS Access"
+        ,"p3_r1_c3": "SQL Server"
+        ,"p3_r1_c4": "Pandas"
+        ,"p3_r1_c5": "Tableau"
+
+        ,"p3_r2_c1": "Power BI"
+        ,"p3_r2_c2": "Pytorch"
+        ,"p3_r2_c3": "Tensor Flow"
+        ,"p3_r2_c4": "ETL"
+        ,"p3_r2_c5": "Tableau Prep Builder"
+
+        ,"p3_r3_c1": ""
+        ,"p3_r3_c2": ""
+        ,"p3_r3_c3": ""
+        ,"p3_r3_c4": ""
+        ,"p3_r3_c5": ""
+
+
+
+
+
+
+        ,"p4_r1_c1": "MS Excel"
+        ,"p4_r1_c2": "MS Access"
+        ,"p4_r1_c3": "SQL Server"
+        ,"p4_r1_c4": "Pandas"
+        ,"p4_r1_c5": "Tableau"
+
+        ,"p4_r2_c1": "Power BI"
+        ,"p4_r2_c2": "Pytorch"
+        ,"p4_r2_c3": "Tensor Flow"
+        ,"p4_r2_c4": "ETL"
+        ,"p4_r2_c5": "Tableau Prep Builder"
+
+        ,"p4_r3_c1": ""
+        ,"p4_r3_c2": ""
+        ,"p4_r3_c3": ""
+        ,"p4_r3_c4": ""
+        ,"p4_r3_c5": ""
+
 
     }
 
