@@ -87,7 +87,6 @@
         ,"p4_r3_c4": ""
         ,"p4_r3_c5": ""
 
-
         ,"experiencia": "Experiencia"
 
         ,"atual_ano":"Out 2019"
@@ -177,10 +176,6 @@
         ,"p1_r3_c4": "SQL Server"
         ,"p1_r3_c5": "Bootstrap"
 
-
-
-
-
         ,"p2_r1_c1": "MS Excel"
         ,"p2_r1_c2": "MS Access"
         ,"p2_r1_c3": "SQL Server"
@@ -198,8 +193,6 @@
         ,"p2_r3_c3": ""
         ,"p2_r3_c4": ""
         ,"p2_r3_c5": ""
-
-
 
         ,"p3_r1_c1": "MS Excel"
         ,"p3_r1_c2": "MS Access"
@@ -219,11 +212,6 @@
         ,"p3_r3_c4": ""
         ,"p3_r3_c5": ""
 
-
-
-
-
-
         ,"p4_r1_c1": "MS Excel"
         ,"p4_r1_c2": "MS Access"
         ,"p4_r1_c3": "SQL Server"
@@ -241,6 +229,55 @@
         ,"p4_r3_c3": ""
         ,"p4_r3_c4": ""
         ,"p4_r3_c5": ""
+    
+        ,"experiencia": "Professional Experience"
+
+        ,"atual_ano":"2019 Oct"
+        ,"atual_cargo":"Proccess Analist | DASA"
+        ,"atual_desc":"Atualmente trabalho no setor de recebíveis desenvolvendo RPAs, um sistema orquestrador baseado em Python/Django e Macros"
+
+        ,"ultimo_ano":"Abr 2019"
+        ,"ultimo_cargo":"Analista de Planejamento e Performance Jr. | DASA"
+        ,"ultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo e tratando arquivos de inteligencia financeira para criação de painéis de gráficos e insights no Tableau"
+
+        ,"penultimo_ano":"Jul 2018"
+        ,"penultimo_cargo":"Analista Financeiro | DASA"
+        ,"penultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo Macros de Excel para agilizar as atividades do setor"
+
+        ,"antepenultimo_ano":"2014"
+        ,"antepenultimo_cargo":"SUPORTE TÉCNICO | HENRY EQUIPAMENTOS"
+        ,"antepenultimo_desc":"Trabalhei realizando suporte técnico presencial e remoto de aparelhos de ponto eletronico, controladoras de acesso e catracas."
+
+
+        ,"projetos":"Projetos Pessoais"
+        ,"titulo_proj_1":"Apps Multiplataformas Python/Kivy"
+        ,"proj_1_1":"Calculadora"
+        ,"proj_1_2":"Bloco de Notas"
+        ,"proj_1_3":"Tradutor de voz em tempo Real"
+        ,"proj_1_4":"Realidade aumentada"
+        ,"proj_1_5":"Agendador de viagens com integração ao Google Maps"
+
+        ,"titulo_proj_2":"Analise de Imagens com Python/Open CV"
+        ,"proj_2_1":"Reconhecimento de objetos"
+        ,"proj_2_2":"Reconhecimento de faces"
+        ,"proj_2_3":"Reconhecimento em vídeos"
+        ,"proj_2_4":"Realidade Aumentada"
+        ,"proj_2_5":"Experiencias com imagens Multi Espectrais"
+
+        ,"titulo_proj_3":"Machine Learning"
+        ,"proj_3_1":"Magnólia - Assistente Pessoal"
+        ,"proj_3_2":""
+        ,"proj_3_3":""
+        ,"proj_3_4":""
+        ,"proj_3_5":""
+
+        ,"titulo_proj_4":"IoT"
+        ,"proj_4_1":"Monitoramento de Temperatura"
+        ,"proj_4_2":""
+        ,"proj_4_3":""
+        ,"proj_4_4":""
+        ,"proj_4_5":""
+
     },
 
     {
@@ -300,9 +337,6 @@
         ,"p2_r3_c4": ""
         ,"p2_r3_c5": ""
 
-
-
-
         ,"p3_r1_c1": "MS Excel"
         ,"p3_r1_c2": "MS Access"
         ,"p3_r1_c3": "SQL Server"
@@ -320,11 +354,6 @@
         ,"p3_r3_c3": ""
         ,"p3_r3_c4": ""
         ,"p3_r3_c5": ""
-
-
-
-
-
 
         ,"p4_r1_c1": "MS Excel"
         ,"p4_r1_c2": "MS Access"
@@ -344,7 +373,53 @@
         ,"p4_r3_c4": ""
         ,"p4_r3_c5": ""
 
+        ,"experiencia": "Experiencia"
 
+        ,"atual_ano":"Out 2019"
+        ,"atual_cargo":"Analista de Processos Pleno | DASA"
+        ,"atual_desc":"Atualmente trabalho no setor de recebíveis desenvolvendo RPAs, um sistema orquestrador baseado em Python/Django e Macros"
+
+        ,"ultimo_ano":"Abr 2019"
+        ,"ultimo_cargo":"Analista de Planejamento e Performance Jr. | DASA"
+        ,"ultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo e tratando arquivos de inteligencia financeira para criação de painéis de gráficos e insights no Tableau"
+
+        ,"penultimo_ano":"Jul 2018"
+        ,"penultimo_cargo":"Analista Financeiro | DASA"
+        ,"penultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo Macros de Excel para agilizar as atividades do setor"
+
+        ,"antepenultimo_ano":"2014"
+        ,"antepenultimo_cargo":"SUPORTE TÉCNICO | HENRY EQUIPAMENTOS"
+        ,"antepenultimo_desc":"Trabalhei realizando suporte técnico presencial e remoto de aparelhos de ponto eletronico, controladoras de acesso e catracas."
+
+
+        ,"projetos":"Projetos Pessoais"
+        ,"titulo_proj_1":"Apps Multiplataformas Python/Kivy"
+        ,"proj_1_1":"Calculadora"
+        ,"proj_1_2":"Bloco de Notas"
+        ,"proj_1_3":"Tradutor de voz em tempo Real"
+        ,"proj_1_4":"Realidade aumentada"
+        ,"proj_1_5":"Agendador de viagens com integração ao Google Maps"
+
+        ,"titulo_proj_2":"Analise de Imagens com Python/Open CV"
+        ,"proj_2_1":"Reconhecimento de objetos"
+        ,"proj_2_2":"Reconhecimento de faces"
+        ,"proj_2_3":"Reconhecimento em vídeos"
+        ,"proj_2_4":"Realidade Aumentada"
+        ,"proj_2_5":"Experiencias com imagens Multi Espectrais"
+
+        ,"titulo_proj_3":"Machine Learning"
+        ,"proj_3_1":"Magnólia - Assistente Pessoal"
+        ,"proj_3_2":""
+        ,"proj_3_3":""
+        ,"proj_3_4":""
+        ,"proj_3_5":""
+
+        ,"titulo_proj_4":"IoT"
+        ,"proj_4_1":"Monitoramento de Temperatura"
+        ,"proj_4_2":""
+        ,"proj_4_3":""
+        ,"proj_4_4":""
+        ,"proj_4_5":""
     }
 
 ]
