@@ -1,5 +1,7 @@
 [
     {
+        "idioma": "Idioma",
+
         "sobre" : "Sobre Mim", 
         "sobre_p1" : "Sou autodidata e me interesso por diversas áreas acadêmicas, por isso estou sempre em busca de novos desafios.",
         "sobre_p2" : "Sou formado em Engenharia de controle e automação pela univerdidade Estácio de Sá (2018)",
@@ -18,6 +20,8 @@
     },
 
     {
+        "idioma": "Language",
+
         "sobre" : "About Me", 
         "sobre_p1" : "",
         "sobre_p2" : "",
@@ -34,6 +38,8 @@
     },
 
     {
+        "idioma": "Idioma",
+
         "sobre" : "Sobre Mi", 
         "sobre_p1" : "",
         "sobre_p2" : "",
@@ -42,10 +48,10 @@
         "sobre_p5" : "",
         "sobre_p6" : ""
 
-        ,"formacao": ""
+        ,"formacao": "Formación"
         ,"formacao_p1":""
 
-        ,"habilidades": ""
+        ,"habilidades": "Habilidades"
 
     }
 

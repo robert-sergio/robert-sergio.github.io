@@ -18,6 +18,8 @@ function readTextFile(file, callback) {
 function text(n=int){
     readTextFile("data.json", function(text){
         var data = JSON.parse(text);
+
+    document.getElementById("idioma").innerHTML = data[n].idioma;
     
     document.getElementById("sobre").innerHTML = data[n].sobre;
     document.getElementById("sobre_p1").innerHTML = data[n].sobre_p1;
