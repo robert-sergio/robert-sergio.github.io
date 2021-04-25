@@ -4,6 +4,10 @@
   margin-right: auto
 }
 
+.bt-flag{
+  pointer-event: none;
+}
+
 .centralizar_texto {
   text-align: center;
 }

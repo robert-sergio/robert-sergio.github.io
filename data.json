@@ -1,0 +1,52 @@
+[
+    {
+        "sobre" : "Sobre Mim", 
+        "sobre_p1" : "Sou autodidata e me interesso por diversas áreas acadêmicas, por isso estou sempre em busca de novos desafios.",
+        "sobre_p2" : "Sou formado em Engenharia de controle e automação pela univerdidade Estácio de Sá (2018)",
+        "sobre_p3" : "Sou programador Python há dois anos com a intenção de atuar com Data Science e Machine Learning",
+        "sobre_p4" : "Atualmente estou trabalhando como Analista de processos Senior na empresa DASA desenvolvendo RPAs baseados em Python e criando um sistema orquestrador de RPA baseado em Python/Django.",
+        "sobre_p5" : "Ainda na Dasa pretendo participar de projetos de IoT para mesclar os conhecimentos de Hardware e Software que adquiri em soluções úteis para a empresa. Por exemplo: criar softwares para análisar imagens para análises clinicas e desenvolver hardware/IoT para a engenharia clinica, integrar hardwares legados ou monitoramento de variáveis de ambiente.",
+        "sobre_p6" : "Meu próximo passo profissional é conseguir atuar na posição de especialista ou engenheiro nas áreas de processo, dados ou IoT"
+    
+        ,"formacao": "Formação"
+        ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)"
+
+        ,"habilidades": "Habilidades"
+        
+
+
+    },
+
+    {
+        "sobre" : "About Me", 
+        "sobre_p1" : "",
+        "sobre_p2" : "",
+        "sobre_p3" : "",
+        "sobre_p4" : "",
+        "sobre_p5" : "",
+        "sobre_p6" : ""
+
+        ,"formacao": "Formação"
+        ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)"
+
+        ,"habilidades": "Habilidades"
+
+    },
+
+    {
+        "sobre" : "Sobre Mi", 
+        "sobre_p1" : "",
+        "sobre_p2" : "",
+        "sobre_p3" : "",
+        "sobre_p4" : "",
+        "sobre_p5" : "",
+        "sobre_p6" : ""
+
+        ,"formacao": "Formação"
+        ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)"
+
+        ,"habilidades": "Habilidades"
+
+    }
+
+]

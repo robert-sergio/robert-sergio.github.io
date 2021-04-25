@@ -9,6 +9,12 @@
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <link rel='stylesheet' href='timeline.css'>
 
+    <!-- Json dos textos -->
+    <script type="text/javascript" src="data.json"></script>
+
+    <!-- Javascript de textos -->
+    <script src="texts.js"></script> 
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <!-- Font Awesome Icons -->
@@ -91,9 +97,9 @@
                                 <tr>
                                     <td class='px-3'>
                                         <small class="text-muted">Idioma</small>
-                                        <i class="flag flag-brazil"></i>
-                                        <i class="flag flag-us"></i>
-                                        <i class="flag flag-spain"></i>
+                                        <a href="#"><i onclick="text(0)" class="flag flag-brazil"></i></a> |
+                                        <a href="#"><i onclick="text(1)" class="flag flag-us"></i> </a> |
+                                        <a href="#"><i onclick="text(2)" class="flag flag-spain"></i></a>
                                     </td>
                                 </tr>
 
@@ -114,23 +120,21 @@
 
         <h1 id='sobre' class='text-warning'>Sobre mim</h1>
         <div class='container-sm'>
-            <p>Sou autodidata e me interesso por diversas áreas acadêmicas, por isso estou sempre em busca de novos desafios.</p>
+            <p id='sobre_p1'>Sou autodidata e me interesso por diversas áreas acadêmicas, por isso estou sempre em busca de novos desafios.</p>
 
-            <p>Sou formado em Engenharia de controle e automação pela univerdidade Estácio de Sá (2018)</p>
+            <p id='sobre_p2'>Sou formado em Engenharia de controle e automação pela univerdidade Estácio de Sá (2018)</p>
 
-            <p>Sou programador Python há dois anos com a intenção de atuar com Data Science e Machine Learning</p>
+            <p id='sobre_p3'>Sou programador Python há dois anos com a intenção de atuar com Data Science e Machine Learning</p>
 
-            <p>Atualmente estou trabalhando como Analista de processos Senior na empresa DASA desenvolvendo RPAs baseados em Python e criando um sistema
+            <p id='sobre_p4'>Atualmente estou trabalhando como Analista de processos Senior na empresa DASA desenvolvendo RPAs baseados em Python e criando um sistema
                 orquestrador de RPA baseado em Python/Django.</p>
             
-            <p>Ainda na Dasa pretendo participar de projetos de IoT para mesclar os conhecimentos de Hardware e Software que adquiri
+            <p id='sobre_p5'>Ainda na Dasa pretendo participar de projetos de IoT para mesclar os conhecimentos de Hardware e Software que adquiri
                 em soluções úteis para a empresa. Por exemplo: criar softwares para análisar imagens para análises clinicas e
                 desenvolver hardware/IoT para a engenharia clinica, integrar hardwares legados ou monitoramento de variáveis de ambiente.
             </p>
 
-            <p>Meu próximo passo profissional é conseguir atuar na posição de especialista ou engenheiro nas áreas de processo, dados ou IoT</p>
-
-            <!-- <p>Meu objetivo para um futuro distante é me tornar especialista em inteligencia artificial e robótica afim</p> -->
+            <p id='sobre_p6'>Meu próximo passo profissional é conseguir atuar na posição de especialista ou engenheiro nas áreas de processo, dados ou IoT</p>
 
         </div>
 
@@ -144,13 +148,13 @@
     <div class='container-lg text-light'>
 
         
-        <h1 class='text-warning'>Formação</h1>
+        <h1 id='formacao' class='text-warning'>Formação</h1>
         <div class='container-sm'>
-            <p>Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)</p>        
+            <p id='formacao_p1'>Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)</p>        
         </div>
 
         <!-- Carrossel de Habilidades -->
-        <h1 class='text-warning'>Habilidades</h1>
+        <h1 id='habilidades' class='text-warning'>Habilidades</h1>
 
         <div class='container-sm'>
 
