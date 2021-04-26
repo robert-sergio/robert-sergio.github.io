@@ -3,12 +3,12 @@
         "idioma": "Idioma",
 
         "sobre" : "Sobre mim", 
-        "sobre_p1" : "Sou autodidata e me interesso por diversas áreas acadêmicas, por isso estou sempre em busca de novos desafios.",
+        "sobre_p1" : "Sou autodidata e multipotencial, por isso estou sempre em busca de desafios diferenciados na carreira.",
         "sobre_p2" : "Sou formado em Engenharia de controle e automação pela univerdidade Estácio de Sá (2018)",
-        "sobre_p3" : "Sou programador Python há dois anos com a intenção de atuar com Data Science e Machine Learning",
-        "sobre_p4" : "Atualmente estou trabalhando como Analista de processos Senior na empresa DASA desenvolvendo RPAs baseados em Python e criando um sistema orquestrador de RPA baseado em Python/Django.",
+        "sobre_p3" : "Sou desenvolvedor Python há dois anos com a intenção de atuar com Data Science e Machine Learning",
+        "sobre_p4" : "Atualmente estou trabalhando como Analista de processos Senior na empresa DASA desenvolvendo RPAs baseados em Python e criando um sistema orquestrador de RPA baseado em Python/Django para integrarmos estes bots aos sistemas de atendimento através de APIs.",
         "sobre_p5" : "Ainda na Dasa pretendo participar de projetos de IoT para mesclar os conhecimentos de Hardware e Software que adquiri em soluções úteis para a empresa. Por exemplo: criar softwares para análisar imagens para análises clinicas e desenvolver hardware/IoT para a engenharia clinica, integrar hardwares legados ou monitoramento de variáveis de ambiente.",
-        "sobre_p6" : "Meu próximo passo profissional é conseguir atuar na posição de especialista ou engenheiro nas áreas de processo, dados ou IoT"
+        "sobre_p6" : "Meu próximo passo profissional é conseguir atuar na posição de especialista ou engenheiro nas áreas de processo, dados ou IoT."
     
         ,"formacao": "Formação"
         ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)"
@@ -24,7 +24,7 @@
         ,"p1_r1_c2": "Flask"
         ,"p1_r1_c3": "Django"
         ,"p1_r1_c4": "Git"
-        ,"p1_r1_c5": "Github"
+        ,"p1_r1_c5": "Webservices"
         ,"p1_r2_c1": "Docker"
         ,"p1_r2_c2": "Linux"
         ,"p1_r2_c3": "Azure"
@@ -47,12 +47,11 @@
         ,"p2_r2_c3": "Tensor Flow"
         ,"p2_r2_c4": "ETL"
         ,"p2_r2_c5": "Tableau Prep Builder"
-        ,"p2_r3_c1": ""
+        ,"p2_r3_c1": "VBA MACROS"
         ,"p2_r3_c2": ""
         ,"p2_r3_c3": ""
         ,"p2_r3_c4": ""
         ,"p2_r3_c5": ""
-
 
         ,"p3_r1_c1": "Mapeamento de Processos"
         ,"p3_r1_c2": "BIZAGI"
@@ -69,7 +68,6 @@
         ,"p3_r3_c3": ""
         ,"p3_r3_c4": ""
         ,"p3_r3_c5": ""
-
 
         ,"p4_r1_c1": "Arduino"
         ,"p4_r1_c2": "Raspberry"
@@ -91,10 +89,10 @@
 
         ,"atual_ano":"Out 2019"
         ,"atual_cargo":"Analista de Processos Pleno | DASA"
-        ,"atual_desc":"Atualmente trabalho no setor de recebíveis desenvolvendo RPAs, um sistema orquestrador baseado em Python/Django e Macros"
+        ,"atual_desc":"Atualmente trabalho no setor de recebíveis desenvolvendo RPAs baseados em Python. Criamos 40 bots de web scrapping e os disponibilizamos num sistema orquestrador baseado em Python/Django. Em nossos próximos passos, iremos disponibilizar estes bots também através de Webservice para que possam ficar disponíveis para todos os setores da empresa."
 
         ,"ultimo_ano":"Abr 2019"
-        ,"ultimo_cargo":"Analista de Planejamento e Performance Jr. | DASA"
+        ,"ultimo_cargo":"Analista de Plan. e Performance Jr. | DASA"
         ,"ultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo e tratando arquivos de inteligencia financeira para criação de painéis de gráficos e insights no Tableau"
 
         ,"penultimo_ano":"Jul 2018"
@@ -106,7 +104,7 @@
         ,"antepenultimo_desc":"Trabalhei realizando suporte técnico presencial e remoto de aparelhos de ponto eletronico, controladoras de acesso e catracas."
 
 
-        ,"projetos":"Projetos Pessoais"
+        ,"projetos":"Projetos"
         ,"titulo_proj_1":"Apps Multiplataformas Python/Kivy"
         ,"proj_1_1":"Calculadora"
         ,"proj_1_2":"Bloco de Notas"
