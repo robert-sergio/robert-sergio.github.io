@@ -114,16 +114,18 @@
     <!-- Separador -->
     <div class='linha mb-5'></div>
 
-    <!-- Video -->
-    <div class='container-sm d-block centralizar'>
-        <div class='row video-container mb-5 mt-5'>
-            <iframe src="https://www.youtube.com/embed/K7wCgW0qnpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
-
     <!-- Sobre -->
     <div class='container-lg text-light'>
-        <h1 id='sobre' class='text-warning fw-bolder text-capitalize mb-5'></h1>
+        <table class='mb-5'>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <h1 id='sobre' class='text-warning fw-bolder text-capitalize'></h1>
+                </td>
+            </tr>
+        </table>
+
         <div class='divider-custom-line'></div>
         <div class='container-sm mb-5'>
             <p id='sobre_p1'></p>
@@ -132,6 +134,12 @@
             <p id='sobre_p4'></p>
             <p id='sobre_p5'></p>
             <p id='sobre_p6'></p>
+
+            <p id='sobre_p7'>
+                <a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </p>
         </div>
     </div>
     
@@ -403,6 +411,33 @@
 
     </div>
 
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel"></h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <h5>Um vídeo vale mais que mil palavras.</h5>
+                    <div class='row video-container mb-5 mt-5'>
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/K7wCgW0qnpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer"> -->
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                <!-- </div> -->
+
+            </div>
+        </div>
+    </div>
+    
+
     <script>
         text(0)
     </script>
@@ -446,19 +481,15 @@
     
       </script>
 
-    <!-- Javascript da Execução do Vídeo -->
-    <script> 
-        var vid = document.getElementById("myVideo"); 
-        
-        function playVid() {
-            vid.play();
-        }
-        
-        function pauseVid() { 
-        vid.pause(); 
-        } 
-    </script> 
+    <!-- Modal Video -->
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
 
+        myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+        })
+    </script>
 </body>
   
 </html>

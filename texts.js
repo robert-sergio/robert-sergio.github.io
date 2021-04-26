@@ -28,6 +28,7 @@ function text(n=int){
     document.getElementById("sobre_p4").innerHTML = data[n].sobre_p4;
     document.getElementById("sobre_p5").innerHTML = data[n].sobre_p5;
     document.getElementById("sobre_p6").innerHTML = data[n].sobre_p6;
+    document.getElementById("sobre_p7").innerHTML = data[n].sobre_p7;
 
     document.getElementById("formacao").innerHTML = data[n].formacao;
     document.getElementById("formacao_p1").innerHTML = data[n].formacao_p1;
