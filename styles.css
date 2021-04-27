@@ -110,3 +110,13 @@
 .nuvem {
   color: white;
 }
+
+.card {
+  width: 40%;
+}
+
+.centralizar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
