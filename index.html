@@ -40,7 +40,7 @@
 <body class='bg-custom-dark'>
 
     <!-- NavBar -->
-    <nav class="navbar navbar-light bg-light text-dark">
+    <nav class="navbar navbar-light bg-custom-dark text-light">
         <div class='container-lg'>
             <div class='float-left'>
                 <table>
@@ -61,45 +61,46 @@
 
                                 <tr>
                                     <td  class='px-3'>
-                                        <a href="https://www.google.com/maps/place/Duque+de+Caxias,+RJ/@-22.73227,-43.3946006,11.75z/data=!4m5!3m4!1s0x9972edfbe838f5:0x672bb060c280a52a!8m2!3d-22.7863108!4d-43.3053589" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i></a>
-                                        <small class="text-muted">Duque de Caxias - RJ</small>
+                                        <a class='text-light' href="https://www.google.com/maps/place/Duque+de+Caxias,+RJ/@-22.73227,-43.3946006,11.75z/data=!4m5!3m4!1s0x9972edfbe838f5:0x672bb060c280a52a!8m2!3d-22.7863108!4d-43.3053589" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i></a>
+                                        <small class="text-light">Duque de Caxias - RJ</small>
                                     </td>
                                 </tr>
                                 
                                 <tr>
                                     <td class='px-3'>
                                         <i class="fab fa-whatsapp"></i>
-                                        <small class="text-muted">+55 21 98750-8408</small>
+                                        <small class="text-light">+55 21 98750-8408</small>
                                     </td>
                                 </tr>
                                 
                                 <tr>
                                     <td class='px-3'>
                                         <i class="fas fa-envelope-square"></i>
-                                        <small class="text-muted">robert.sergio.eng@gmail.com</small>
+                                        <small class="text-light">robert.sergio.eng@gmail.com</small>
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td  class='px-3'>
-                                        <a href="https://www.linkedin.com/in/robert-sergio"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-                                        <small class="text-muted"><a href="https://www.linkedin.com/in/robert-sergio"  target="_blank" rel="noopener noreferrer">LinkedIn</a></small>
+                                        <a class='text-light' href="https://www.linkedin.com/in/robert-sergio"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                                        <small class="text-light"><a class='text-light' href="https://www.linkedin.com/in/robert-sergio"  target="_blank" rel="noopener noreferrer">LinkedIn</a></small>
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td  class='px-3'>
-                                        <a href="https://www.github.com/robert-sergio"  target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                                        <small class="text-muted"><a href="https://www.github.com/robert-sergio" target="_blank" rel="noopener noreferrer">Github</a></small>
+                                        <a class='text-light' href="https://www.github.com/robert-sergio"  target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                                        <small class=""><a class='text-light' href="https://www.github.com/robert-sergio" target="_blank" rel="noopener noreferrer">Github</a></small>
                                     </td>
                                 </tr>
 
+                                <!-- DESATIVADO TEMPORARIAMENTE -->
                                 <tr>
                                     <td class='px-3'>
-                                        <small id="idioma" class="text-muted"></small>
-                                        <a href="#"><i onclick="text(0)" class="flag flag-brazil"></i></a> |
-                                        <a href="#"><i onclick="text(1)" class="flag flag-us"></i> </a> |
-                                        <a href="#"><i onclick="text(2)" class="flag flag-spain"></i></a>
+                                        <small id="idioma" class="text-light"></small>
+                                        <a class='text-light' href="#"><i onclick="text(0)" class="flag flag-brazil"></i></a>
+                                        <!-- | <a href="#"><i onclick="text(1)" class="flag flag-us"></i> </a> -->
+                                        <!-- | <a href="#"><i onclick="text(2)" class="flag flag-spain"></i></a> -->
                                     </td>
                                 </tr>
 
@@ -112,22 +113,21 @@
     </nav>
 
     <!-- Separador -->
-    <div class='linha mb-5'></div>
+    <div class='linha'></div>
+
+    <!-- Video Apresentação -->
+    <div class='video-container bg-light'>
+        <iframe class='position-absolute top-50 start-50 translate-middle' src="https://www.youtube.com/embed/K7wCgW0qnpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- Separador -->
+    <div class='linha'></div>
 
     <!-- Sobre -->
-    <div class='container-lg text-light'>
-        <table class='mb-5'>
-            <tr>
-                <td>
-                </td>
-                <td>
-                    <h1 id='sobre' class='text-warning fw-bolder text-capitalize'></h1>
-                </td>
-            </tr>
-        </table>
+    <div class='bg-custom-dark container text-light mt-5 centralizar_texto'>
+        <h1 id='sobre' class='text-warning fw-bolder text-capitalize mb-5'></h1>
 
-        <div class='divider-custom-line'></div>
-        <div class='container-sm mb-5'>
+        <div class='container-sm w-60 text-break centralizar_texto mb-4 fs-4'>
             <p id='sobre_p1'></p>
             <p id='sobre_p2'></p>
             <p id='sobre_p3'></p>
@@ -135,24 +135,148 @@
             <p id='sobre_p5'></p>
             <p id='sobre_p6'></p>
             <p id='sobre_p7'></p>
-            <p>
-                <a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </p>
+        </div>
+    </div>
 
+    <!-- Grid para Modal de Habilidades -->
+    <div class='bg-light w-100'>
+        <div class='linha'></div>
+        <div class='w-100 mt-5 d-flex flex-row justify-content-center'>
+
+            <h1 id='habilidades' class='text-dark fw-bolder text-capitalize mb-5'></h1>
+
+            <button class='rounded-2 mx-2 mb-5 bg-primary' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                <div class='rounded-circle bg-light m-3'>
+                    <i class='fas fa-10x fa-graduation-cap m-5'></i>
+                </div>
+                <span class='fs-4'>Formação Academica</span>
+            </button>
+
+            <button class='rounded-2 mx-2 mb-5' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                <div class='rounded-circle bg-primary m-3'>
+                    <i class='fas fa-10x fa-cloud m-5 nuvem'></i>
+                </div>
+                <span class='fs-4'>Programação e Cloud</span>
+            </button>
+
+            <button class='rounded-2 mx-2 mb-5 bg-success' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                <div class='rounded-circle bg-primary m-3'>
+                    <i class='fas fa-10x fa-tasks nuvem m-5'></i>
+                </div>
+                <span class='fs-4'>Processos e Projetos</span>
+            </button>
+
+            <button class='rounded-2 mx-2 mb-5' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                <div class='rounded-circle bg-success m-3'>
+                    <i class='fas fa-10x fa-table m-5'></i>
+                </div>
+                <span class='fs-4'>Analise de dados</span>
+            </button>
+
+            <button class='rounded-2 mx-2 mb-5' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                <div class='rounded-circle bg-success m-3'>
+                    <i class='fas fa-10x fa-microchip m-5'></i>
+                </div>
+                <span class='fs-4'>IoT</span>
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+        <div class='linha'></div>
+    </div>
+
+    <!-- TimeLine -->
+    <div class='container-lg text-light'>
+        <div class="container">
+            <h1 id="experiencia" class='bg-custom-dark text-warning fw-bolder text-capitalize mb-5'></h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+
+                        <!-- Atual -->
+                        <div class="timeline mb-4">
+                            <a class="timeline-content">
+                                <div id="atual_ano" class="timeline-year"></div>
+                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                                <div class="inner-content">
+                                    <h3 id="atual_cargo" class="title"></h3>
+                                    <p id="atual_desc" class="description"></p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Ultimo -->
+                        <div class="timeline mb-4">
+                            <a class="timeline-content">
+                                <div id="ultimo_ano" class="timeline-year"></div>
+                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                                <div class="inner-content">
+                                    <h3 id="ultimo_cargo" class="title"></h3>
+                                    <p id="ultimo_desc" class="description"></p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Penultimo -->
+                        <div class="timeline mb-4">
+                            <a class="timeline-content">
+                                <div id="penultimo_ano" class="timeline-year"></div>
+                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                                <div class="inner-content">
+                                    <h3 id="penultimo_cargo" class="title"></h3>
+                                    <p id="penultimo_desc" class="description"></p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Antepenultimo -->
+                        <div class="timeline mb-4">
+                            <a class="timeline-content">
+                                <div id="antepenultimo_ano" class="timeline-year"></div>
+                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                                <div class="inner-content">
+                                    <h3 id="antepenultimo_cargo" class="title"></h3>
+                                    <p id="antepenultimo_desc" class="description"></p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
-    <!-- Formação, Habilidades, Experiencia -->
-    <div class='container-lg text-light'>       
-        <h1 id='formacao' class='text-warning fw-bolder text-capitalize mb-5'></h1>
-        <div class='container-sm mb-5'>
-            <p id='formacao_p1'></p>
-        </div>
-
-        <!-- Carrossel de Habilidades -->
-        <h1 id='habilidades' class='text-warning fw-bolder text-capitalize mb-5'></h1>
+    <div class='bg-custom-dark container'>
+        <!-- Projetos Pessoais -->
+        <h1 id="projetos" class='text-warning mb-5'></h1>
         <div class='container-sm mb-5'>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -256,7 +380,7 @@
                         </div>
 
                     </div>
-
+                    
                     <!-- Tela 4 -->
                     <div class="carousel-item">
                         <img src="imgs/blank4.png" class="d-block w-50 centralizar" alt="...">
@@ -302,71 +426,10 @@
                 </button>
             </div>
         </div>
-
-        <!-- TimeLine -->
-        <h1 id="experiencia" class='text-warning fw-bolder text-capitalize mb-5'></h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-timeline">
-
-                        <!-- Atual -->
-                        <div class="timeline mb-4">
-                            <a class="timeline-content">
-                                <div id="atual_ano" class="timeline-year"></div>
-                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                                <div class="inner-content">
-                                    <h3 id="atual_cargo" class="title"></h3>
-                                    <p id="atual_desc" class="description"></p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <!-- Ultimo -->
-                        <div class="timeline mb-4">
-                            <a class="timeline-content">
-                                <div id="ultimo_ano" class="timeline-year"></div>
-                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                                <div class="inner-content">
-                                    <h3 id="ultimo_cargo" class="title"></h3>
-                                    <p id="ultimo_desc" class="description"></p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <!-- Penultimo -->
-                        <div class="timeline mb-4">
-                            <a class="timeline-content">
-                                <div id="penultimo_ano" class="timeline-year"></div>
-                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                                <div class="inner-content">
-                                    <h3 id="penultimo_cargo" class="title"></h3>
-                                    <p id="penultimo_desc" class="description"></p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <!-- Antepenultimo -->
-                        <div class="timeline mb-4">
-                            <a class="timeline-content">
-                                <div id="antepenultimo_ano" class="timeline-year"></div>
-                                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                                <div class="inner-content">
-                                    <h3 id="antepenultimo_cargo" class="title"></h3>
-                                    <p id="antepenultimo_desc" class="description"></p>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
-    <!-- Projetos Pessoais -->
+    <!-- 
     <div class='container-lg text-light fw-bolder text-capitalize mt-5'>
-        <h1 id="projetos" class='text-warning mb-5'></h1>
         
         <div class='container-sm'>
             <h5 id="titulo_proj_1"></h5>
@@ -410,11 +473,11 @@
 
         </div>
 
-    </div>
+    </div> -->
 
     
     
-    <!-- Modal -->
+    <!-- Modais -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -424,16 +487,12 @@
                 </div>
 
                 <div class="modal-body">
-                    <h5>Um vídeo vale mais que mil palavras.</h5>
-                    <div class='row video-container mb-5 mt-5'>
-                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/K7wCgW0qnpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    Alguma coisa aqui
                 </div>
                 <!-- <div class="modal-footer"> -->
                     <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
                     <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                 <!-- </div> -->
-
             </div>
         </div>
     </div>

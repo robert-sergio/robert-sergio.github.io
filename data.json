@@ -9,7 +9,7 @@
         ,"sobre_p4" : "Atualmente estou trabalhando como Analista de processos Senior na empresa DASA desenvolvendo RPAs baseados em Python e criando um sistema orquestrador de RPA baseado em Python/Django para integrarmos estes bots aos sistemas de atendimento através de APIs."
         ,"sobre_p5" : "Ainda na Dasa pretendo participar de projetos de IoT para mesclar os conhecimentos de Hardware e Software que adquiri em soluções úteis para a empresa. Por exemplo: criar softwares para análisar imagens para análises clinicas e desenvolver hardware/IoT para a engenharia clinica, integrar hardwares legados ou monitoramento de variáveis de ambiente."
         ,"sobre_p6" : "Meu próximo passo profissional é conseguir atuar na posição de especialista ou engenheiro nas áreas de processo, dados ou IoT."
-        ,"sobre_p7" : "Um breve vídeo sobre mim"
+        ,"sobre_p7" : "Abaixo voce pode ver uma breve apresentação em vídeo"
     
         ,"formacao": "Formação"
         ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá (2018)"
@@ -90,19 +90,19 @@
 
         ,"atual_ano":"Out 2019"
         ,"atual_cargo":"Analista de Processos Pleno | DASA"
-        ,"atual_desc":"Atualmente trabalho no setor de recebíveis desenvolvendo RPAs baseados em Python. Criamos 40 bots de web scrapping e os disponibilizamos num sistema orquestrador baseado em Python/Django. Em nossos próximos passos, iremos disponibilizar estes bots também através de Webservice para que possam ficar disponíveis para todos os setores da empresa."
+        ,"atual_desc":"Atualmente trabalho no setor de recebíveis desenvolvendo RPAs baseados em Python. Criamos 40 bots de web scrapping e os disponibilizamos no sistema orquestrador que criamos baseado em Python/Django. Em nossos próximos passos, iremos disponibilizar estes bots também através de Webservice para que possam ficar disponíveis para todos os setores da empresa."
 
         ,"ultimo_ano":"Abr 2019"
         ,"ultimo_cargo":"Analista de Plan. e Performance Jr. | DASA"
-        ,"ultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo e tratando arquivos de inteligencia financeira para criação de painéis de gráficos e insights no Tableau"
+        ,"ultimo_desc":"Também trabalhei brevemente no setor de recebíveis desenvolvendo e tratando arquivos de inteligencia financeira para criação de painéis de gráficos e insights no Tableau."
 
         ,"penultimo_ano":"Jul 2018"
         ,"penultimo_cargo":"Analista Financeiro | DASA"
-        ,"penultimo_desc":"Trabalhei no setor de recebíveis desenvolvendo Macros de Excel para agilizar as atividades do setor"
+        ,"penultimo_desc":"Iniciei a Dasa trabalhando no setor de recebíveis desenvolvendo Macros de Excel para agilizar as atividades do setor de análise de recurso de Glosas. Dentro desta oportunidade também participei do projeto de padronização do processo de cobranças da Dasa e criei um sistema de acompanhamento de notas fiscais usando Excel e o Banco de dados SQL Server."
 
         ,"antepenultimo_ano":"2014"
         ,"antepenultimo_cargo":"SUPORTE TÉCNICO | HENRY EQUIPAMENTOS"
-        ,"antepenultimo_desc":"Trabalhei realizando suporte técnico presencial e remoto de aparelhos de ponto eletronico, controladoras de acesso e catracas."
+        ,"antepenultimo_desc":"Trabalhei realizando suporte técnico presencial e remoto de aparelhos de ponto eletronico, controladoras de acesso e catracas. Eu frequentemente viajava para fazer visitas técnicas e treinamentos fora do estado do RJ. Nesta ocasião também fui responsável pela manutenção dos 350 aparelhos de ponto eletronico da Universidade Estácio de Sá. Nesta função eu fazia o controle das visitas corretivas e preventivas deste cliente."
 
 
         ,"projetos":"Projetos"
