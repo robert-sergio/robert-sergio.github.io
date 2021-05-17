@@ -21,7 +21,7 @@ function text(n=int){
 
     document.getElementById("idioma").innerHTML = data[n].idioma;
 
-    document.getElementById("sobre_p7").innerHTML = data[n].sobre_p7;
+    // document.getElementById("sobre_p7").innerHTML = data[n].sobre_p7;
 
     document.getElementById("sobre").innerHTML = data[n].sobre;
     document.getElementById("sobre_p1").innerHTML = data[n].sobre_p1;
