@@ -21,8 +21,6 @@ function text(n=int){
 
     document.getElementById("idioma").innerHTML = data[n].idioma;
 
-    // document.getElementById("sobre_p7").innerHTML = data[n].sobre_p7;
-
     document.getElementById("sobre").innerHTML = data[n].sobre;
     document.getElementById("sobre_p1").innerHTML = data[n].sobre_p1;
     document.getElementById("sobre_p2").innerHTML = data[n].sobre_p2;
@@ -32,88 +30,71 @@ function text(n=int){
     document.getElementById("sobre_p6").innerHTML = data[n].sobre_p6;
 
     document.getElementById("formacao").innerHTML = data[n].formacao;
-    document.getElementById("formacao_p2").innerHTML = data[n].formacao_p2;
     document.getElementById("formacao_p1").innerHTML = data[n].formacao_p1;
+    document.getElementById("formacao_p2").innerHTML = data[n].formacao_p2;
     
-    document.getElementById("habilidades").innerHTML = data[n].habilidades;
-
     document.getElementById("programacao").innerHTML = data[n].programacao;
     document.getElementById("analise").innerHTML = data[n].analise;
     document.getElementById("processos").innerHTML = data[n].processos;
-    document.getElementById("iot").innerHTML = data[n].iot;
 
-    document.getElementById("p1_r1_c1").innerHTML = data[n].p1_r1_c1;
-    document.getElementById("p1_r1_c2").innerHTML = data[n].p1_r1_c2;
-    document.getElementById("p1_r1_c3").innerHTML = data[n].p1_r1_c3;
-    document.getElementById("p1_r1_c4").innerHTML = data[n].p1_r1_c4;
-    document.getElementById("p1_r1_c5").innerHTML = data[n].p1_r1_c5;
+    document.getElementById("prog1").innerHTML = data[n].prog1;
+    document.getElementById("prog2").innerHTML = data[n].prog2;
+    document.getElementById("prog3").innerHTML = data[n].prog3;
+    document.getElementById("prog4").innerHTML = data[n].prog4;
+    document.getElementById("prog5").innerHTML = data[n].prog5;
+    document.getElementById("prog6").innerHTML = data[n].prog6;
+    document.getElementById("prog7").innerHTML = data[n].prog7;
+    document.getElementById("prog8").innerHTML = data[n].prog8;
+    document.getElementById("prog9").innerHTML = data[n].prog9;
+    document.getElementById("prog10").innerHTML = data[n].prog10;
+    document.getElementById("prog11").innerHTML = data[n].prog11;
+    document.getElementById("prog12").innerHTML = data[n].prog12;
+    document.getElementById("prog13").innerHTML = data[n].prog13;
+    document.getElementById("prog14").innerHTML = data[n].prog14;
+    document.getElementById("prog15").innerHTML = data[n].prog15;
 
-    document.getElementById("p1_r2_c1").innerHTML = data[n].p1_r2_c1;
-    document.getElementById("p1_r2_c2").innerHTML = data[n].p1_r2_c2;
-    document.getElementById("p1_r2_c3").innerHTML = data[n].p1_r2_c3;
-    document.getElementById("p1_r2_c4").innerHTML = data[n].p1_r2_c4;
-    document.getElementById("p1_r2_c5").innerHTML = data[n].p1_r2_c5;
+    document.getElementById("dados1").innerHTML = data[n].dados1;
+    document.getElementById("dados2").innerHTML = data[n].dados2;
+    document.getElementById("dados3").innerHTML = data[n].dados3;
+    document.getElementById("dados4").innerHTML = data[n].dados4;
+    document.getElementById("dados5").innerHTML = data[n].dados5;
+    document.getElementById("dados6").innerHTML = data[n].dados6;
+    document.getElementById("dados7").innerHTML = data[n].dados7;
+    document.getElementById("dados8").innerHTML = data[n].dados8;
+    document.getElementById("dados9").innerHTML = data[n].dados9;
+    document.getElementById("dados10").innerHTML = data[n].dados10;
 
-    document.getElementById("p1_r3_c1").innerHTML = data[n].p1_r3_c1;
-    document.getElementById("p1_r3_c2").innerHTML = data[n].p1_r3_c2;
-    document.getElementById("p1_r3_c3").innerHTML = data[n].p1_r3_c3;
-    document.getElementById("p1_r3_c4").innerHTML = data[n].p1_r3_c4;
-    document.getElementById("p1_r3_c5").innerHTML = data[n].p1_r3_c5;
+    document.getElementById("proc1").innerHTML = data[n].proc1;
+    document.getElementById("proc2").innerHTML = data[n].proc2;
+    document.getElementById("proc3").innerHTML = data[n].proc3;
+    document.getElementById("proc4").innerHTML = data[n].proc4;
+    document.getElementById("proc5").innerHTML = data[n].proc5;
+    document.getElementById("proc6").innerHTML = data[n].proc6;
+    document.getElementById("proc7").innerHTML = data[n].proc7;
+    document.getElementById("proc8").innerHTML = data[n].proc8;
+    document.getElementById("proc9").innerHTML = data[n].proc9;
+    document.getElementById("proc10").innerHTML = data[n].proc10;
 
-    document.getElementById("p2_r1_c1").innerHTML = data[n].p2_r1_c1;
-    document.getElementById("p2_r1_c2").innerHTML = data[n].p2_r1_c2;
-    document.getElementById("p2_r1_c3").innerHTML = data[n].p2_r1_c3;
-    document.getElementById("p2_r1_c4").innerHTML = data[n].p2_r1_c4;
-    document.getElementById("p2_r1_c5").innerHTML = data[n].p2_r1_c5;
+    document.getElementById("experiencia").innerHTML = data[n].experiencia;
 
-    document.getElementById("p2_r2_c1").innerHTML = data[n].p2_r2_c1;
-    document.getElementById("p2_r2_c2").innerHTML = data[n].p2_r2_c2;
-    document.getElementById("p2_r2_c3").innerHTML = data[n].p2_r2_c3;
-    document.getElementById("p2_r2_c4").innerHTML = data[n].p2_r2_c4;
-    document.getElementById("p2_r2_c5").innerHTML = data[n].p2_r2_c5;
+    document.getElementById("penultimo_ano").innerHTML = data[n].penultimo_ano;
+    document.getElementById("penultimo_cargo").innerHTML = data[n].penultimo_cargo;
+    document.getElementById("penultimo_desc").innerHTML = data[n].penultimo_desc;
 
-    document.getElementById("p2_r3_c1").innerHTML = data[n].p2_r3_c1;
-    document.getElementById("p2_r3_c2").innerHTML = data[n].p2_r3_c2;
-    document.getElementById("p2_r3_c3").innerHTML = data[n].p2_r3_c3;
-    document.getElementById("p2_r3_c4").innerHTML = data[n].p2_r3_c4;
-    document.getElementById("p2_r3_c5").innerHTML = data[n].p2_r3_c5;
+    document.getElementById("antepenultimo_ano").innerHTML = data[n].antepenultimo_ano;
+    document.getElementById("antepenultimo_cargo").innerHTML = data[n].antepenultimo_cargo;
+    document.getElementById("antepenultimo_desc").innerHTML = data[n].antepenultimo_desc;
 
-    document.getElementById("p3_r1_c1").innerHTML = data[n].p3_r1_c1;
-    document.getElementById("p3_r1_c2").innerHTML = data[n].p3_r1_c2;
-    document.getElementById("p3_r1_c3").innerHTML = data[n].p3_r1_c3;
-    document.getElementById("p3_r1_c4").innerHTML = data[n].p3_r1_c4;
-    document.getElementById("p3_r1_c5").innerHTML = data[n].p3_r1_c5;
+    document.getElementById("atual_ano").innerHTML = data[n].atual_ano;
+    document.getElementById("atual_cargo").innerHTML = data[n].atual_cargo;
+    document.getElementById("atual_desc").innerHTML = data[n].atual_desc;
 
-    document.getElementById("p3_r2_c1").innerHTML = data[n].p3_r2_c1;
-    document.getElementById("p3_r2_c2").innerHTML = data[n].p3_r2_c2;
-    document.getElementById("p3_r2_c3").innerHTML = data[n].p3_r2_c3;
-    document.getElementById("p3_r2_c4").innerHTML = data[n].p3_r2_c4;
-    document.getElementById("p3_r2_c5").innerHTML = data[n].p3_r2_c5;
+    document.getElementById("ultimo_ano").innerHTML = data[n].ultimo_ano;
+    document.getElementById("ultimo_cargo").innerHTML = data[n].ultimo_cargo;
+    document.getElementById("ultimo_desc").innerHTML = data[n].ultimo_desc;
 
-    document.getElementById("p3_r3_c1").innerHTML = data[n].p3_r3_c1;
-    document.getElementById("p3_r3_c2").innerHTML = data[n].p3_r3_c2;
-    document.getElementById("p3_r3_c3").innerHTML = data[n].p3_r3_c3;
-    document.getElementById("p3_r3_c4").innerHTML = data[n].p3_r3_c4;
-    document.getElementById("p3_r3_c5").innerHTML = data[n].p3_r3_c5;
 
-    document.getElementById("p4_r1_c1").innerHTML = data[n].p4_r1_c1;
-    document.getElementById("p4_r1_c2").innerHTML = data[n].p4_r1_c2;
-    document.getElementById("p4_r1_c3").innerHTML = data[n].p4_r1_c3;
-    document.getElementById("p4_r1_c4").innerHTML = data[n].p4_r1_c4;
-    document.getElementById("p4_r1_c5").innerHTML = data[n].p4_r1_c5;
-
-    document.getElementById("p4_r2_c1").innerHTML = data[n].p4_r2_c1;
-    document.getElementById("p4_r2_c2").innerHTML = data[n].p4_r2_c2;
-    document.getElementById("p4_r2_c3").innerHTML = data[n].p4_r2_c3;
-    document.getElementById("p4_r2_c4").innerHTML = data[n].p4_r2_c4;
-    document.getElementById("p4_r2_c5").innerHTML = data[n].p4_r2_c5;
-
-    document.getElementById("p4_r3_c1").innerHTML = data[n].p4_r3_c1;
-    document.getElementById("p4_r3_c2").innerHTML = data[n].p4_r3_c2;
-    document.getElementById("p4_r3_c3").innerHTML = data[n].p4_r3_c3;
-    document.getElementById("p4_r3_c4").innerHTML = data[n].p4_r3_c4;
-    document.getElementById("p4_r3_c5").innerHTML = data[n].p4_r3_c5;
-
+    
     document.getElementById("projetos").innerHTML = data[n].projetos;
 
     document.getElementById("titulo_proj_1").innerHTML = data[n].titulo_proj_1;
@@ -145,23 +126,6 @@ function text(n=int){
     document.getElementById("proj_4_5").innerHTML = data[n].proj_4_5;
 
 
-    document.getElementById("experiencia").innerHTML = data[n].experiencia;
-
-    document.getElementById("penultimo_ano").innerHTML = data[n].penultimo_ano;
-    document.getElementById("penultimo_cargo").innerHTML = data[n].penultimo_cargo;
-    document.getElementById("penultimo_desc").innerHTML = data[n].penultimo_desc;
-
-    document.getElementById("antepenultimo_ano").innerHTML = data[n].antepenultimo_ano;
-    document.getElementById("antepenultimo_cargo").innerHTML = data[n].antepenultimo_cargo;
-    document.getElementById("antepenultimo_desc").innerHTML = data[n].antepenultimo_desc;
-
-    document.getElementById("atual_ano").innerHTML = data[n].atual_ano;
-    document.getElementById("atual_cargo").innerHTML = data[n].atual_cargo;
-    document.getElementById("atual_desc").innerHTML = data[n].atual_desc;
-
-    document.getElementById("ultimo_ano").innerHTML = data[n].ultimo_ano;
-    document.getElementById("ultimo_cargo").innerHTML = data[n].ultimo_cargo;
-    document.getElementById("ultimo_desc").innerHTML = data[n].ultimo_desc;
 
 });
 
