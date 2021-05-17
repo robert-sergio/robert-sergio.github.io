@@ -47,7 +47,7 @@
                     <tr>
                         
                         <td class='float'>
-                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH4DLCaVKfLfw/profile-displayphoto-shrink_800_800/0/1526307811785?e=1623888000&v=beta&t=5Dr7mkv4TF7gz1HCksB2iI13mMm2yTHNPg_9WVF3dN0" class='foto'>
+                            <img src="imgs/Foto.png" class='foto'>
                         </td>
                         
                         <td>
@@ -117,7 +117,7 @@
 
     <!-- Video Apresentação -->
     <div class='video-container bg-light'>
-        <iframe class='position-absolute top-50 start-50 translate-middle' src="https://www.youtube.com/embed/K7wCgW0qnpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class='position-absolute top-50 start-50 translate-middle' src="https://www.youtube.com/embed/gS4ZIFewyNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <!-- Separador -->
@@ -147,11 +147,11 @@
 
             <div class="row">
                 <div class='col-sm d-flex justify-content-center'>
-                    <button class='rounded-2 mx-2 mb-5 bg-primary center' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
-                        <div class='rounded-circle bg-light m-3'>
-                            <i class='fas fa-7x fa-graduation-cap m-5'></i>
+                    <button class='rounded-2 mx-2 mb-5 center' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                        <div class='rounded-circle dourado m-3'>
+                            <i class='fas fa-7x fa-graduation-cap m-5 branco'></i>
                         </div>
-                        <span class='fs-5 text-light'>Formação Academica</span>
+                        <span class='fs-5' id='formacao'></span>
                     </button>
                 </div>
             </div>
@@ -159,32 +159,37 @@
             <div class='row'>
                 <div class='col-sm d-flex justify-content-center'>
                     <button class='rounded-2 mx-2 mb-5' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
-                        <div class='rounded-circle bg-primary m-3'>
-                            <i class='fas fa-7x fa-cloud m-5 nuvem'></i>
+
+                        <div class='rounded-circle dourado m-3'>
+                            <i class='fas fa-7x fa-cloud m-5 branco'></i>
                         </div>
                         <span class='fs-5'>Programação e Cloud</span>
+
                     </button>
                 </div>
+
                 <div class='col-sm d-flex justify-content-center'>
-                    <button class='rounded-2 mx-2 mb-5 bg-success' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
-                        <div class='rounded-circle bg-primary m-3'>
-                            <i class='fas fa-7x fa-tasks nuvem m-5'></i>
+                    <button class='rounded-2 mx-2 mb-5' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                        <div class='rounded-circle dourado m-3'>
+                            <i class='fas fa-7x fa-tasks m-5 branco'></i>
                         </div>
                         <span class='fs-5'>Processos e Projetos</span>
                     </button>
                 </div>
+
                 <div class='col-sm d-flex justify-content-center'>
                     <button class='rounded-2 mx-2 mb-5' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
-                        <div class='rounded-circle bg-success m-3'>
-                            <i class='fas fa-7x fa-table m-5'></i>
+                        <div class='rounded-circle dourado m-3'>
+                            <i class='fas fa-7x fa-table m-5 branco'></i>
                         </div>
                         <span class='fs-5'>Analise de dados</span>
                     </button>
                 </div>
+
                 <div class='col-sm d-flex justify-content-center'>
                     <button class='rounded-2 mx-2 mb-5' type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
-                        <div class='rounded-circle bg-success m-3'>
-                            <i class='fas fa-7x fa-microchip m-5'></i>
+                        <div class='rounded-circle dourado m-3'>
+                            <i class='fas fa-7x fa-microchip m-5 branco'></i>
                         </div>
                         <span class='fs-5'>IoT</span>
                     </button>
@@ -196,26 +201,18 @@
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                    <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Recipient:</label>
-                        <input type="text" class="form-control" id="recipient-name">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Formação Academica</h5>
                     </div>
-                    <div class="mb-3">
-                        <label for="message-text" class="col-form-label">Message:</label>
-                        <textarea class="form-control" id="message-text"></textarea>
+                    <div class="modal-body">
+                        <ul>
+                            <li class='mb-2' id='formacao_p1'></li>
+                            <li class='mb-2' id='formacao_p2'></li>
+                        </ul>
                     </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send message</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
                 </div>
             </div>
             </div>

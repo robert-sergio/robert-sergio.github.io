@@ -39,6 +39,14 @@
     background-color: goldenrod;
 }
 
+.dourado {
+  background-color: goldenrod;
+}
+
+.branco {
+  color: white;
+}
+
 .carousel-div {
     height:550px;
     position: relative;
@@ -106,10 +114,6 @@
   background-size:auto;
   background-position: center;
 } 
-
-.nuvem {
-  color: white;
-}
 
 .card {
   width: 40%;
