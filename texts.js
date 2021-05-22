@@ -22,6 +22,9 @@ function text(n=int){
     document.getElementById("idioma").innerHTML = data[n].idioma;
 
     document.getElementById("sobre").innerHTML = data[n].sobre;
+    document.getElementById("slogan").innerHTML = data[n].slogan;
+    document.getElementById("resumido").innerHTML = data[n].resumido;
+    
     document.getElementById("sobre_p1").innerHTML = data[n].sobre_p1;
     document.getElementById("sobre_p2").innerHTML = data[n].sobre_p2;
     document.getElementById("sobre_p3").innerHTML = data[n].sobre_p3;
@@ -94,7 +97,7 @@ function text(n=int){
     document.getElementById("ultimo_desc").innerHTML = data[n].ultimo_desc;
 
 
-    
+
     document.getElementById("projetos").innerHTML = data[n].projetos;
 
     document.getElementById("titulo_proj_1").innerHTML = data[n].titulo_proj_1;
