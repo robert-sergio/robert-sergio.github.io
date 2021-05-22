@@ -10,12 +10,18 @@
   content: '';
 }
 
+.div-frame {
+}
+
 .video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 50.5%;
-  height: 85%;
+  height: 80%;
+  /* min-height: 85%; */
+  /* max-height: 90%; */
+  
 }
 
 .centralizar_texto {
