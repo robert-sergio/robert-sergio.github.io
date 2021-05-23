@@ -21,9 +21,9 @@
         ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá - Julho 2019"
         ,"formacao_p2":"Cursando MBA em gestão de projetos"
 
-        ,"processos": "Gestão de Processos e Projetos"
-        ,"programacao": "Programação e Cloud Computing"
-        ,"analise": "Análise de dados e Business Inteligence"
+        ,"processos": "Processos e Projetos"
+        ,"programacao": "Prog. e Cloud Computing"
+        ,"analise": "Data Science e Business Inteligence"
         ,"iot": "IoT - Internet das Coisas"
 
         ,"prog1": "Fullstack Python 3"
@@ -92,7 +92,7 @@
 
         ,"projetos":"Projetos"
 
-        ,"titulo_proj_1": "Apps Multiplataformas Python/Kivy MD"
+        ,"titulo_proj_1": "Apps Android com Python/Kivy MD"
         ,"desc_proj_1": "Estudos práticos da biblioteca Kivy MD e compilação de Apps para Android. Criação de Apps como Calculadora, Bloco de notas, etc..."
         ,"status_proj_1":"Iniciado"
 
