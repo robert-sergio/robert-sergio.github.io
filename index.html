@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel='stylesheet' href='styles.css'>
+    <link rel='stylesheet' href='card.css'>
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <link rel='stylesheet' href='timeline.css'>
 
@@ -14,6 +15,7 @@
 
     <!-- Javascript de textos -->
     <script src="texts.js"></script> 
+    <script src="card.js"></script> 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
@@ -39,7 +41,7 @@
 <body class='bg-custom-dark'>
 
     <!-- NavBar -->
-    <nav class="navbar navbar-light bg-custom-dark text-light mt-5 mb-5">
+    <nav class="navbar navbar-light bg-custom-dark text-light mb-5">
         <div class='container-lg'>
             <div class='float-left'>
                 <table>
@@ -148,77 +150,94 @@
 
         <div class='container'>
 
-            <div class='dourado m-3'>
-                <i class='px-3 fas fa-2x fa-graduation-cap mt-1 branco'></i>
-                <i class='px-3 fw-bold fs-5 ml-1 text-light' id='formacao'></i>
-            </div>
-            <div class='px-5'>
-                <ul class='no-bullets centralizar_texto'>
-                    <li id='formacao_p1'></li>
-                    <li id='formacao_p2'></li>
-                </ul>
+            <div class='w-100 px-0 card-shade mb-4'>
+                <div class='course-preview'>
+                    <ul class='no-bullets'>
+                        <li class='px-3 fas fa-2x fa-graduation-cap mt-1 branco'></li>
+                        <li class='px-3 fw-bold ml-1 text-light fs-2' id='formacao'></li>
+                    </ul>
+                </div>
+                <div class='px-5'>
+                    <ul class='m-3'>
+                        <li id='formacao_p1'></li>
+                        <li id='formacao_p2'></li>
+                    </ul>
+                </div>
             </div>
             
-            <div class='dourado m-3'>
-                <i class='px-3 fas fa-2x fa-cloud mt-1 branco'></i>
-                <i class='px-3 fw-bold fs-5 ml-1 text-light' id='programacao'></i>
-            </div>
-            <div class='px-5'>
-                <ul class='no-bullets centralizar_texto'>
-                    <li id='prog1'></li>
-                    <li id='prog2'></li>
-                    <li id='prog3'></li>
-                    <li id='prog4'></li>
-                    <li id='prog5'></li>
-                    <li id='prog6'></li>
-                    <li id='prog7'></li>
-                    <li id='prog8'></li>
-                    <li id='prog9'></li>
-                    <li id='prog10'></li>
-                    <li id='prog11'></li>
-                    <li id='prog12'></li>
-                    <li id='prog13'></li>
-                    <li id='prog14'></li>
-                    <li id='prog15'></li>
-                </ul>
-        </div>
-
-            <div class='dourado m-3'>
-                <i class='px-3 fas fa-2x fa-table mt-1 branco'></i>
-                <i class='px-3 fw-bold fs-5 ml-1 text-light' id='analise'></i>
-            </div>
-            <div class='px-5'>
-                <ul class='no-bullets centralizar_texto'>
-                    <li id='dados1'></li>
-                    <li id='dados2'></li>
-                    <li id='dados3'></li>
-                    <li id='dados4'></li>
-                    <li id='dados5'></li>
-                    <li id='dados6'></li>
-                    <li id='dados7'></li>
-                    <li id='dados8'></li>
-                    <li id='dados9'></li>
-                    <li id='dados10'></li>
-                </ul>
+            <div class='w-100 px-0 card-shade mb-4'>
+                <div class='course-preview'>
+                    <ul class='no-bullets'>
+                        <li class='px-3 fas fa-2x fa-cloud mt-1 branco'></li>
+                        <li class='px-3 fw-bold ml-1 text-light fs-2' id='programacao'></li>
+                    </ul>
+                </div>
+                <div class='px-5'>
+                    <ul>
+                        <li id='prog1'></li>
+                        <li id='prog2'></li>
+                        <li id='prog3'></li>
+                        <li id='prog4'></li>
+                        <li id='prog5'></li>
+                        <li id='prog6'></li>
+                        <li id='prog7'></li>
+                        <li id='prog8'></li>
+                        <li id='prog9'></li>
+                        <li id='prog10'></li>
+                        <li id='prog11'></li>
+                        <li id='prog12'></li>
+                        <!-- <li id='prog13'></li> -->
+                        <!-- <li id='prog14'></li> -->
+                        <!-- <li id='prog15'></li> -->
+                        <!-- <li id='prog16'></li> -->
+                    </ul>
+                </div>
             </div>
 
-            <div class='dourado m-3'>
-                <i class='px-3 fas fa-2x fa-tasks mt-1 branco'></i>
-                <i class='px-3 fw-bold fs-5 ml-1 text-light' id='processos'></i>
+            <div class='w-100 px-0 card-shade mb-4'>
+                <div class='course-preview'>
+                    <ul class='no-bullets'>
+                        <li class='px-3 fas fa-2x fa-table mt-1 branco'></li>
+                        <li class='px-3 fw-bold ml-1 text-light fs-2' id='analise'></li>
+                    </ul>
+                </div>
+                <div class='px-5'>
+                    <ul>
+                        <li id='dados1'></li>
+                        <li id='dados2'></li>
+                        <li id='dados3'></li>
+                        <li id='dados4'></li>
+                        <li id='dados5'></li>
+                        <li id='dados6'></li>
+                        <li id='dados7'></li>
+                        <!-- <li id='dados8'></li> -->
+                        <!-- <li id='dados9'></li> -->
+                        <!-- <li id='dados10'></li> -->
+                    </ul>
+                </div>
             </div>
-            <div class='px-5'>
-                <ul class='no-bullets centralizar_texto'>
-                    <li id='proc1'></li>
-                    <li id='proc2'></li>
-                    <li id='proc3'></li>
-                    <li id='proc4'></li>
-                    <li id='proc5'></li>
-                    <li id='proc6'></li>
-                    <li id='proc7'></li>
-                    <li id='proc8'></li>
-                    <li id='proc9'></li>
-                    <li id='proc10'></li>
-                </ul>
+
+            <div class='w-100 px-0 card-shade mb-4'>
+                <div class='course-preview'>
+                    <ul class='no-bullets'>
+                        <li class='px-3 fas fa-2x fa-tasks mt-1 branco'></li>
+                        <li class='px-3 fw-bold ml-1 text-light fs-2' id='processos'></li>
+                    </ul>
+                </div>
+                <div class='px-5'>
+                    <ul>
+                        <li id='proc1'></li>
+                        <li id='proc2'></li>
+                        <li id='proc3'></li>
+                        <li id='proc4'></li>
+                        <li id='proc5'></li>
+                        <li id='proc6'></li>
+                        <li id='proc7'></li>
+                        <li id='proc8'></li>
+                        <li id='proc9'></li>
+                        <li id='proc10'></li>
+                    </ul>
+                </div>
             </div>
 
         </div>
@@ -292,15 +311,113 @@
     <!-- Carrosel de Projetos Pessoais -->    
     <div class='bg-light w-100'>
         <div class='linha'></div>
-
         <h1 id="projetos" class='mt-5 mb-5 centralizar_texto'></h1>
+
+        <div class="course card-shade container px-0">
+            <div class="course-preview">
+                <h6 class='text-dark fw-bold'>Projeto</h6>
+                <i id='status_proj_1'></i>
+                <h2 id='titulo_proj_1'></h2>
+                <a href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <h2>Descrição:</h2>
+                <i id = 'desc_proj_1'></i>
+                <h6 class='mb-0 mt-5'>Python 3 | KIVY MD | DOCKER | LINUX</h6>
+            </div>
+        </div>
+
+        <div class="course card-shade container px-0">
+            <div class="course-preview">
+                <h6 class='text-dark fw-bold'>Projeto</h6>
+                <i id='status_proj_2'></i>
+                <h2 id='titulo_proj_2'></h2>
+                <a href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <h2>Descrição:</h2>
+                <i id = 'desc_proj_2'></i>
+                <h6 class='mb-0 mt-5'>Python 3 | OPEN CV</h6>
+            </div>
+        </div>
+
+        <div class="course card-shade container px-0">
+            <div class="course-preview">
+                <h6 class='text-dark fw-bold'>Projeto</h6>
+                <i id='status_proj_3'></i>
+                <h2 id='titulo_proj_3'></h2>
+                <a href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <h2>Descrição:</h2>
+                <i id = 'desc_proj_3'></i>
+                <h6 class='mb-0 mt-5'>Python 3 | Tensor Flow | Kivy MD | Docker | Linux | RASPBERRY PI</h6>
+            </div>
+        </div>
+
+        <div class="course card-shade container px-0">
+            <div class="course-preview">
+                <h6 class='text-dark fw-bold'>Projeto</h6>
+                <i id='status_proj_4'></i>
+                <h2 id='titulo_proj_4'></h2>
+                <a href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <h2>Descrição:</h2>
+                <i id = 'desc_proj_4'></i>
+                <h6 class='mb-0 mt-5'>Python 3 | Open CV</h6>
+            </div>
+        </div>
+
+        <div class="course card-shade container px-0">
+            <div class="course-preview">
+                <h6 class='text-dark fw-bold'>Projeto</h6>
+                <i id='status_proj_5'></i>
+                <h2 id='titulo_proj_5'></h2>
+                <a href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <h2>Descrição:</h2>
+                <i id = 'desc_proj_5'></i>
+                <h6 class='mb-0 mt-5'>Arduino | C++</h6>
+            </div>
+        </div>
+
+        <div class="course card-shade container px-0">
+            <div class="course-preview">
+                <h6 class='text-dark fw-bold'>Projeto</h6>
+                <i id='status_proj_6'></i>
+                <h2 id='titulo_proj_6'></h2>
+                <a href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <h2>Descrição:</h2>
+                <i id = 'desc_proj_6'></i>
+                <h6 class='mb-0 mt-5'>Python 3 | Tensor Flow</h6>
+            </div>
+        </div>
+
+        <div class="course card-shade container px-0">
+            <div class="course-preview">
+                <h6 class='text-dark fw-bold'>Projeto</h6>
+                <i id='status_proj_7'></i>
+                <h2 id='titulo_proj_7'></h2>
+                <a href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <h2>Descrição:</h2>
+                <i id = 'desc_proj_7'></i>
+                <h6 class='mb-0 mt-5'>Python 3 | Tensor Flow</h6>
+            </div>
+        </div>
 
         <div class='linha'></div>
     </div>   
     
     <!-- Footer -->
-    <div class='w-100'>
-
+    <div class='w-100 mt-5 mb-5 centralizar_texto text-light'>
+        <h6>Desenvolvido Por Robert Sergio utilizando Bootstrap 5</h6>
+        <h6>2021</h6>
     </div>   
    
 

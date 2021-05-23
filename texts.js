@@ -31,6 +31,7 @@ function text(n=int){
     document.getElementById("sobre_p4").innerHTML = data[n].sobre_p4;
     document.getElementById("sobre_p5").innerHTML = data[n].sobre_p5;
     document.getElementById("sobre_p6").innerHTML = data[n].sobre_p6;
+    document.getElementById("sobre_p7").innerHTML = data[n].sobre_p7;
 
     document.getElementById("formacao").innerHTML = data[n].formacao;
     document.getElementById("formacao_p1").innerHTML = data[n].formacao_p1;
@@ -52,9 +53,9 @@ function text(n=int){
     document.getElementById("prog10").innerHTML = data[n].prog10;
     document.getElementById("prog11").innerHTML = data[n].prog11;
     document.getElementById("prog12").innerHTML = data[n].prog12;
-    document.getElementById("prog13").innerHTML = data[n].prog13;
-    document.getElementById("prog14").innerHTML = data[n].prog14;
-    document.getElementById("prog15").innerHTML = data[n].prog15;
+    // document.getElementById("prog13").innerHTML = data[n].prog13;
+    // document.getElementById("prog14").innerHTML = data[n].prog14;
+    // document.getElementById("prog15").innerHTML = data[n].prog15;
 
     document.getElementById("dados1").innerHTML = data[n].dados1;
     document.getElementById("dados2").innerHTML = data[n].dados2;
@@ -63,9 +64,9 @@ function text(n=int){
     document.getElementById("dados5").innerHTML = data[n].dados5;
     document.getElementById("dados6").innerHTML = data[n].dados6;
     document.getElementById("dados7").innerHTML = data[n].dados7;
-    document.getElementById("dados8").innerHTML = data[n].dados8;
-    document.getElementById("dados9").innerHTML = data[n].dados9;
-    document.getElementById("dados10").innerHTML = data[n].dados10;
+    // document.getElementById("dados8").innerHTML = data[n].dados8;
+    // document.getElementById("dados9").innerHTML = data[n].dados9;
+    // document.getElementById("dados10").innerHTML = data[n].dados10;
 
     document.getElementById("proc1").innerHTML = data[n].proc1;
     document.getElementById("proc2").innerHTML = data[n].proc2;
@@ -101,34 +102,32 @@ function text(n=int){
     document.getElementById("projetos").innerHTML = data[n].projetos;
 
     document.getElementById("titulo_proj_1").innerHTML = data[n].titulo_proj_1;
-    document.getElementById("proj_1_1").innerHTML = data[n].proj_1_1;
-    document.getElementById("proj_1_2").innerHTML = data[n].proj_1_2;
-    document.getElementById("proj_1_3").innerHTML = data[n].proj_1_3;
-    document.getElementById("proj_1_4").innerHTML = data[n].proj_1_4;
-    document.getElementById("proj_1_5").innerHTML = data[n].proj_1_5;
-    
+    document.getElementById("desc_proj_1").innerHTML = data[n].desc_proj_1;
+    document.getElementById("status_proj_1").innerHTML = data[n].status_proj_1;
+
     document.getElementById("titulo_proj_2").innerHTML = data[n].titulo_proj_2;
-    document.getElementById("proj_2_1").innerHTML = data[n].proj_2_1;
-    document.getElementById("proj_2_2").innerHTML = data[n].proj_2_2;
-    document.getElementById("proj_2_3").innerHTML = data[n].proj_2_3;
-    document.getElementById("proj_2_4").innerHTML = data[n].proj_2_4;
-    document.getElementById("proj_2_5").innerHTML = data[n].proj_2_5;
+    document.getElementById("desc_proj_2").innerHTML = data[n].desc_proj_2;
+    document.getElementById("status_proj_2").innerHTML = data[n].status_proj_2;
 
     document.getElementById("titulo_proj_3").innerHTML = data[n].titulo_proj_3;
-    document.getElementById("proj_3_1").innerHTML = data[n].proj_3_1;
-    document.getElementById("proj_3_2").innerHTML = data[n].proj_3_2;
-    document.getElementById("proj_3_3").innerHTML = data[n].proj_3_3;
-    document.getElementById("proj_3_4").innerHTML = data[n].proj_3_4;
-    document.getElementById("proj_3_5").innerHTML = data[n].proj_3_5;
+    document.getElementById("desc_proj_3").innerHTML = data[n].desc_proj_3;
+    document.getElementById("status_proj_3").innerHTML = data[n].status_proj_3;
 
     document.getElementById("titulo_proj_4").innerHTML = data[n].titulo_proj_4;
-    document.getElementById("proj_4_1").innerHTML = data[n].proj_4_1;
-    document.getElementById("proj_4_2").innerHTML = data[n].proj_4_2;
-    document.getElementById("proj_4_3").innerHTML = data[n].proj_4_3;
-    document.getElementById("proj_4_4").innerHTML = data[n].proj_4_4;
-    document.getElementById("proj_4_5").innerHTML = data[n].proj_4_5;
+    document.getElementById("desc_proj_4").innerHTML = data[n].desc_proj_4;
+    document.getElementById("status_proj_4").innerHTML = data[n].status_proj_4;
 
+    document.getElementById("titulo_proj_5").innerHTML = data[n].titulo_proj_5;
+    document.getElementById("desc_proj_5").innerHTML = data[n].desc_proj_5;
+    document.getElementById("status_proj_5").innerHTML = data[n].status_proj_5;
 
+    document.getElementById("titulo_proj_6").innerHTML = data[n].titulo_proj_6;
+    document.getElementById("desc_proj_6").innerHTML = data[n].desc_proj_6;
+    document.getElementById("status_proj_6").innerHTML = data[n].status_proj_6;
+
+    document.getElementById("titulo_proj_7").innerHTML = data[n].titulo_proj_7;
+    document.getElementById("desc_proj_7").innerHTML = data[n].desc_proj_7;
+    document.getElementById("status_proj_7").innerHTML = data[n].status_proj_7;
 
 });
 
