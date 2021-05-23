@@ -14,9 +14,6 @@
 	overflow: hidden;
 }
 
-.card-size {
-	
-}
 
 .course h6 {
 	opacity: 0.6;
@@ -35,7 +32,7 @@
 	color: #fff;
 	padding: 20px;
 	/* max-width: 40%; */
-	max-width: 400px;
+	max-width: 250px;
 	min-width: 250px;
 }
 
@@ -53,3 +50,4 @@
 	position: relative;
 	/* width: 80%; */
 }
+
