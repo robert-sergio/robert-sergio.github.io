@@ -39,7 +39,7 @@
 .course-preview a {
 	color: #fff;
 	display: inline-block;
-	font-size: 12px;
+	/* font-size: 12px; */
 	opacity: 0.6;
 	margin-top: 30px;
 	text-decoration: none;
