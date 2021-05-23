@@ -26,6 +26,8 @@
 
 .centralizar_texto {
   text-align: center;
+  /* text-align: justify; */
+  /* text-justify: inter-word; */
 }
 
 .foto {
