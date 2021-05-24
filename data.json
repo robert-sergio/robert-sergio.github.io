@@ -100,15 +100,15 @@
 
         ,"titulo_proj_2": "Análise de imagens com OpenCV"
         ,"desc_proj_2": "Estudos de reconhecimento de face, objetos, assinaturas e OCR utilizando a biblioteca Open CV e Python 3"
-        ,"status_proj_2":"..."
+        ,"status_proj_2":"Não Iniciado"
         ,"tecnologias_2": "Python 3 | OPEN CV"
         ,"proj_link_2":"#"
 
         ,"titulo_proj_3":"Assistente Pessoal Com Raspbery Pi"
         ,"desc_proj_3":"Criação de um toten assistente pessoal semelhante a alexa e o google now usando Python e Raspberry Pi"
-        ,"status_proj_3":"..."
+        ,"status_proj_3":"Iniciado"
         ,"tecnologias_3": "Python 3 | Tensor Flow | Kivy MD | Docker | Linux | RASPBERRY PI"
-        ,"proj_link_3":"#"
+        ,"proj_link_3":"https://github.com/robert-sergio/AssistentePessoal"
 
         ,"titulo_proj_4": "Estudos de Realidade Aumentada"
         ,"desc_proj_4": "Estudos com realidade aumentada aplicados a aplicativos Android Usando Kivy MD e Open CV"
