@@ -95,30 +95,44 @@
         ,"titulo_proj_1": "Apps Android com Python/Kivy MD"
         ,"desc_proj_1": "Estudos práticos da biblioteca Kivy MD e compilação de Apps para Android. Criação de Apps como Calculadora, Bloco de notas, etc..."
         ,"status_proj_1":"Iniciado"
+        ,"tecnologias_1": "Python 3 | KIVY MD | DOCKER | LINUX"
+        ,"proj_link_1":"https://github.com/robert-sergio/AppsAndroideComKivy"
 
         ,"titulo_proj_2": "Análise de imagens com OpenCV"
         ,"desc_proj_2": "Estudos de reconhecimento de face, objetos, assinaturas e OCR utilizando a biblioteca Open CV e Python 3"
         ,"status_proj_2":"..."
+        ,"tecnologias_2": "Python 3 | OPEN CV"
+        ,"proj_link_2":"#"
 
         ,"titulo_proj_3":"Assistente Pessoal Com Raspbery Pi"
         ,"desc_proj_3":"Criação de um toten assistente pessoal semelhante a alexa e o google now usando Python e Raspberry Pi"
         ,"status_proj_3":"..."
+        ,"tecnologias_3": "Python 3 | Tensor Flow | Kivy MD | Docker | Linux | RASPBERRY PI"
+        ,"proj_link_3":"#"
 
         ,"titulo_proj_4": "Estudos de Realidade Aumentada"
         ,"desc_proj_4": "Estudos com realidade aumentada aplicados a aplicativos Android Usando Kivy MD e Open CV"
-        ,"status_proj_4":"..."
+        ,"status_proj_4":"Não Iniciado"
+        ,"tecnologias_4": "Python 3 | Open CV"
+        ,"proj_link_4":"https://github.com/robert-sergio/AR-OPENCV"
 
         ,"titulo_proj_5":"Construção de Impressora 3D"
         ,"desc_proj_5":"Construção de uma impressora 3D com arduino para projetos de robótica."
-        ,"status_proj_5":"..."
+        ,"status_proj_5":"Não Iniciado"
+        ,"tecnologias_5": "Arduino | C++"        
+        ,"proj_link_5":"#"
 
         ,"titulo_proj_6": "Linguagem natural com Deep Learning"
         ,"desc_proj_6": "Algoritmos de linguagem natural com Deep Learning para conversações simples com seres humanos."
-        ,"status_proj_6":"..."
+        ,"status_proj_6":"Não Iniciado"
+        ,"tecnologias_6": "Python 3 | Tensor Flow"        
+        ,"proj_link_6":"#"
 
         ,"titulo_proj_7": "Clonagem de Voz com Deep Learning"
         ,"desc_proj_7": "Algoritmo de clonagem de voz para trazer novamente as vozes das pessoas que se foram e que nos fazem falta."
-        ,"status_proj_7":"..."
+        ,"status_proj_7":"Não Iniciado"
+        ,"tecnologias_7": "Python 3 | Tensor Flow"        
+        ,"proj_link_7":"#"
 
     },
 

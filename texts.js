@@ -97,38 +97,51 @@ function text(n=int){
     document.getElementById("ultimo_cargo").innerHTML = data[n].ultimo_cargo;
     document.getElementById("ultimo_desc").innerHTML = data[n].ultimo_desc;
 
-
-
     document.getElementById("projetos").innerHTML = data[n].projetos;
 
     document.getElementById("titulo_proj_1").innerHTML = data[n].titulo_proj_1;
     document.getElementById("desc_proj_1").innerHTML = data[n].desc_proj_1;
     document.getElementById("status_proj_1").innerHTML = data[n].status_proj_1;
+    document.getElementById("proj_link_1").setAttribute('href', data[n].proj_link_1);
+    document.getElementById("tecnologias_1").innerHTML = data[n].tecnologias_1;
 
     document.getElementById("titulo_proj_2").innerHTML = data[n].titulo_proj_2;
     document.getElementById("desc_proj_2").innerHTML = data[n].desc_proj_2;
     document.getElementById("status_proj_2").innerHTML = data[n].status_proj_2;
+    document.getElementById("proj_link_2").setAttribute('href', data[n].proj_link_2);
+    document.getElementById("tecnologias_2").innerHTML = data[n].tecnologias_2;
 
     document.getElementById("titulo_proj_3").innerHTML = data[n].titulo_proj_3;
     document.getElementById("desc_proj_3").innerHTML = data[n].desc_proj_3;
     document.getElementById("status_proj_3").innerHTML = data[n].status_proj_3;
+    document.getElementById("proj_link_3").setAttribute('href', data[n].proj_link_3);
+    document.getElementById("tecnologias_3").innerHTML = data[n].tecnologias_3;
 
     document.getElementById("titulo_proj_4").innerHTML = data[n].titulo_proj_4;
     document.getElementById("desc_proj_4").innerHTML = data[n].desc_proj_4;
     document.getElementById("status_proj_4").innerHTML = data[n].status_proj_4;
+    document.getElementById("proj_link_4").setAttribute('href', data[n].proj_link_4);
+    document.getElementById("tecnologias_4").innerHTML = data[n].tecnologias_4;
 
     document.getElementById("titulo_proj_5").innerHTML = data[n].titulo_proj_5;
     document.getElementById("desc_proj_5").innerHTML = data[n].desc_proj_5;
     document.getElementById("status_proj_5").innerHTML = data[n].status_proj_5;
+    document.getElementById("proj_link_5").setAttribute('href', data[n].proj_link_5);
+    document.getElementById("tecnologias_5").innerHTML = data[n].tecnologias_5;
 
     document.getElementById("titulo_proj_6").innerHTML = data[n].titulo_proj_6;
     document.getElementById("desc_proj_6").innerHTML = data[n].desc_proj_6;
     document.getElementById("status_proj_6").innerHTML = data[n].status_proj_6;
+    document.getElementById("proj_link_6").setAttribute('href', data[n].proj_link_6);
+    document.getElementById("tecnologias_6").innerHTML = data[n].tecnologias_6;
 
     document.getElementById("titulo_proj_7").innerHTML = data[n].titulo_proj_7;
     document.getElementById("desc_proj_7").innerHTML = data[n].desc_proj_7;
     document.getElementById("status_proj_7").innerHTML = data[n].status_proj_7;
+    document.getElementById("proj_link_7").setAttribute('href', data[n].proj_link_7);
+    document.getElementById("tecnologias_7").innerHTML = data[n].tecnologias_7;
 
+    
 });
 
 }
