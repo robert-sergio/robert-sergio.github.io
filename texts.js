@@ -40,6 +40,7 @@ function text(n=int){
     document.getElementById("programacao").innerHTML = data[n].programacao;
     document.getElementById("analise").innerHTML = data[n].analise;
     document.getElementById("processos").innerHTML = data[n].processos;
+    document.getElementById("iot").innerHTML = data[n].iot;
 
     document.getElementById("prog1").innerHTML = data[n].prog1;
     document.getElementById("prog2").innerHTML = data[n].prog2;
@@ -79,6 +80,13 @@ function text(n=int){
     document.getElementById("proc9").innerHTML = data[n].proc9;
     document.getElementById("proc10").innerHTML = data[n].proc10;
 
+    document.getElementById("iot1").innerHTML = data[n].iot1;
+    document.getElementById("iot2").innerHTML = data[n].iot2;
+    document.getElementById("iot3").innerHTML = data[n].iot3;
+    document.getElementById("iot4").innerHTML = data[n].iot4;
+    document.getElementById("iot5").innerHTML = data[n].iot5;
+    document.getElementById("iot6").innerHTML = data[n].iot6;
+
     document.getElementById("experiencia").innerHTML = data[n].experiencia;
 
     document.getElementById("penultimo_ano").innerHTML = data[n].penultimo_ano;
@@ -102,25 +110,26 @@ function text(n=int){
     document.getElementById("titulo_proj_1").innerHTML = data[n].titulo_proj_1;
     document.getElementById("desc_proj_1").innerHTML = data[n].desc_proj_1;
     document.getElementById("status_proj_1").innerHTML = data[n].status_proj_1;
-    document.getElementById("proj_link_1").setAttribute('href', data[n].proj_link_1);
+    document.getElementById("proj_link_1").innerHTML = data[n].proj_link_1; // setAttribute('href', data[n].proj_link_1);
     document.getElementById("tecnologias_1").innerHTML = data[n].tecnologias_1;
 
     document.getElementById("titulo_proj_2").innerHTML = data[n].titulo_proj_2;
     document.getElementById("desc_proj_2").innerHTML = data[n].desc_proj_2;
     document.getElementById("status_proj_2").innerHTML = data[n].status_proj_2;
-    document.getElementById("proj_link_2").setAttribute('href', data[n].proj_link_2);
+    document.getElementById("proj_link_2").innerHTML = data[n].proj_link_2; // setAttribute('href', data[n].proj_link_1);
     document.getElementById("tecnologias_2").innerHTML = data[n].tecnologias_2;
 
     document.getElementById("titulo_proj_3").innerHTML = data[n].titulo_proj_3;
     document.getElementById("desc_proj_3").innerHTML = data[n].desc_proj_3;
     document.getElementById("status_proj_3").innerHTML = data[n].status_proj_3;
-    document.getElementById("proj_link_3").setAttribute('href', data[n].proj_link_3);
+    document.getElementById("proj_link_3").innerHTML = data[n].proj_link_3; // setAttribute('href', data[n].proj_link_1);
     document.getElementById("tecnologias_3").innerHTML = data[n].tecnologias_3;
 
     document.getElementById("titulo_proj_4").innerHTML = data[n].titulo_proj_4;
     document.getElementById("desc_proj_4").innerHTML = data[n].desc_proj_4;
     document.getElementById("status_proj_4").innerHTML = data[n].status_proj_4;
-    document.getElementById("proj_link_4").setAttribute('href', data[n].proj_link_4);
+    document.getElementById("proj_link_4").innerHTML = data[n].proj_link_4; // setAttribute('href', data[n].proj_link_1);
+    // document.getElementById("proj_link_4").setAttribute('href', data[n].proj_link_4);
     document.getElementById("tecnologias_4").innerHTML = data[n].tecnologias_4;
 
     document.getElementById("titulo_proj_5").innerHTML = data[n].titulo_proj_5;

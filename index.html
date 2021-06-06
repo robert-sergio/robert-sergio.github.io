@@ -88,7 +88,7 @@
                                 <tr>
                                     <td  class='px-3'>
                                         <a class='text-light' href="https://www.github.com/robert-sergio"  target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                                        <small class=""><a class='text-light' href="https://www.github.com/robert-sergio" target="_blank" rel="noopener noreferrer">Github</a></small>
+                                        <small class=""><a class    ='text-light' href="https://www.github.com/robert-sergio" target="_blank" rel="noopener noreferrer">Github</a></small>
                                     </td>
                                 </tr>
 
@@ -120,9 +120,8 @@
     <!-- Separador -->
     <div class='linha'></div>
 
-    <!-- Video Apresentação -->
-    <div class='video-container bg-light div-frame'>
-        <iframe class='position-absolute top-50 start-50 translate-middle' src="https://www.youtube.com/embed/gS4ZIFewyNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="embed-responsive embed-responsive-16by9 bg-light">
+        <iframe class="embed-responsive-item px-5 " src="https://www.youtube.com/embed/gS4ZIFewyNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <!-- Separador -->
@@ -130,10 +129,17 @@
 
     <!-- Sobre -->
     <div class='bg-custom-dark container text-light mt-5 centralizar_texto'>
-        <h1 id='sobre' class='text-warning fw-bolder text-capitalize mb-5'></h1>
 
         <div class='container-sm w-60 text-break centralizar_texto fs-4'>
-            <p class= 'fst-italic fw-bold text-warning' id='slogan'></p>
+ 
+            <p class= 'fst-italic fw-bold text-warning mb-0 mt-5' id='slogan'></p>
+            <p class='mt-0 mb-5'>_____________________</p>
+
+            <!-- <p id='' class='mt-5 text-warning'>Perfil Multidisciplinar em M</p> -->
+            <!-- <img src="imgs/Untitled Diagram.png" class='mb-5 img-fluid'> -->
+            <!-- <p class='mt-0 mb-5'>_____________________</p> -->
+
+            <h1 id='sobre' class='text-warning fw-bolder text-capitalize mb-5'></h1>
             <p class= 'mb-5' id='resumido'></p>
 
             <p class= 'mt-5' id='sobre_p1'></p>
@@ -144,6 +150,9 @@
             <p id='sobre_p6'></p>
             <p id='sobre_p7' class='mb-5'></p>
         </div>
+
+        
+        
     </div>
 
     <!-- Grid para Modal de Habilidades -->
@@ -244,6 +253,25 @@
                 </div>
             </div>
 
+            <div class='w-100 px-0 card-shade mb-4'>
+                <div class='course-preview'>
+                    <ul class='no-bullets px-1'>
+                        <li class='fas fa-2x fa-microchip mt-1 branco'></li>
+                        <li class='text-light fs-5' id='iot'></li>
+                    </ul>
+                </div>
+                <div class='px-1'>
+                    <ul class='mt-3 mb-3 ml-0'>
+                        <li id='iot1'></li>
+                        <li id='iot2'></li>
+                        <li id='iot3'></li>
+                        <li id='iot4'></li>
+                        <li id='iot5'></li>
+                        <li id='iot6'></li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
         <div class='linha mt-5'></div>
@@ -323,7 +351,7 @@
                 <h6 class='text-dark fw-bold'>Projeto</h6>
                 <i id='status_proj_1'></i>
                 <h5 class='text-light mt-1' id='titulo_proj_1'></h5>
-                <a id="proj_link_1" href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+                <a id="proj_link_1" class='text-dark fs-6'><i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="course-info">
                 <h2>Descrição:</h2>
@@ -337,7 +365,7 @@
                 <h6 class='text-dark fw-bold'>Projeto</h6>
                 <i id='status_proj_2'></i>
                 <h5 class='text-light mt-1' id='titulo_proj_2'></h5>
-                <a id="proj_link_2" href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+                <a id="proj_link_2" class='text-dark fs-6'><i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="course-info">
                 <h2>Descrição:</h2>
@@ -351,7 +379,7 @@
                 <h6 class='text-dark fw-bold'>Projeto</h6>
                 <i id='status_proj_3'></i>
                 <h5 class='text-light mt-1' id='titulo_proj_3'></h5>
-                <a id="proj_link_3" href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+                <a id="proj_link_3" class='text-dark fs-6'><i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="course-info">
                 <h2>Descrição:</h2>
@@ -365,7 +393,7 @@
                 <h6 class='text-dark fw-bold'>Projeto</h6>
                 <i id='status_proj_4'></i>
                 <h5 class='text-light mt-1' id='titulo_proj_4'></h5>
-                <a id="proj_link_4" href="#" class='text-dark fs-6'>Ver Projeto no Github <i class="fas fa-chevron-right"></i></a>
+                <a id="proj_link_4" class='text-dark fs-6'><i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="course-info">
                 <h2>Descrição:</h2>
@@ -374,7 +402,7 @@
             </div>
         </div>
 
-        <div class="course card-shade container px-0">
+        <!-- <div class="course card-shade container px-0">
             <div class="course-preview">
                 <h6 class='text-dark fw-bold'>Projeto</h6>
                 <i id='status_proj_5'></i>
@@ -414,7 +442,7 @@
                 <i id = 'desc_proj_7'></i>
                 <h6 id="tecnologias_7" class='mb-0 mt-5'></h6>
             </div>
-        </div>
+        </div> -->
 
         </div>
 
