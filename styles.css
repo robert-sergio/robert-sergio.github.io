@@ -7,8 +7,8 @@
 .foto {
     border: goldenrod;
     border-radius: 50%;
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
 }
 
 .texto {
@@ -42,7 +42,7 @@
     transform: translateY(-50%);
   }
 
-  .bg-custom-dark{
+.bg-custom-dark{
     background-color:rgba(36, 43, 43, 1)
   }
 
