@@ -35,7 +35,7 @@ function text(n=int){
 
     document.getElementById("formacao").innerHTML = data[n].formacao;
     document.getElementById("formacao_p1").innerHTML = data[n].formacao_p1;
-    document.getElementById("formacao_p2").innerHTML = data[n].formacao_p2;
+    // document.getElementById("formacao_p2").innerHTML = data[n].formacao_p2;
     
     document.getElementById("programacao").innerHTML = data[n].programacao;
     document.getElementById("analise").innerHTML = data[n].analise;

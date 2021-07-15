@@ -4,22 +4,22 @@
 
         ,"sobre" : "Sobre mim"
 
-        ,"slogan" : "Nós não somos estudantes de alguma disciplina, mas estudantes de problemas. E problemas podem atravessar diretamente as fronteiras de qualquer matéria ou disciplina. ( Karl Popper )"
+        ,"slogan" : ""
         ,"resumido" : "Eng. de Controle e Automação | RPA | Big Data | Fullstack Python | Azure Cloud | IoT"
 
         ,"sobre_p1" : "Sou apaixonado por tecnologia, inteligencia artificial, robótica, automação de processos, sistemas ou hardware."
         ,"sobre_p2" : "Sou autodidata e multipotencial. Estou sempre em busca de novos conhecimentos que agreguem valor aos projetos que participo ou crio."
         ,"sobre_p3" : "Processos manuais, lentos e trabalhosos me incomodam por isso eu gosto de atuar resolvendo estes tipos de problemas redesenhando processos, removendo gargalos, automatizando rotinas, acelerando e reduzindo erros dos processos."
-        ,"sobre_p4" : "Sou formado em Engenharia de controle e automação, sou desenvolvedor Fulltack Python, trabalho com métodos ágeis, Bancos de dados e computação em nuvem e atualmente cursando MBA em gestão de projetos e metodologias ágeis."
-        ,"sobre_p5" : "Atualmente estou trabalhando como Analista de processos Pleno na empresa DASA e atuo desenvolvendo e liderando projetos de melhorias de processos em curto e médio prazo."
-        ,"sobre_p6" : "Desenvolvo RPAs baseados em Python e os disponibilizo em um sistema orquestrador em nuvem que criamos usando Python ou em aplicativos executáveis."
-        ,"sobre_p7" : "Minhas futuras formações permanecerão voltadas para tecnologia com enfase em robótica (Hardware) e inteligencia artificial (Processamento de linguagem natural) e análise de dados."
+        ,"sobre_p4" : "Sou formado em Engenharia de controle e automação, sou desenvolvedor Fulltack Python, trabalho com métodos ágeis, Bancos de dados e computação em nuvem."
+        ,"sobre_p5" : "Atualmente estou trabalhando como Analista de processos Pleno na empresa DASA e atuo participando de projetos de melhorias de processos em curto e médio prazo."
+        ,"sobre_p6" : "Desenvolvo RPAs baseados em Python e os disponibilizo em um sistema orquestrador em nuvem que criamos usando Python ou em aplicativos executáveis. Também desenvolvo ETLs para agilizar a consolidação e analise de dados."
+        ,"sobre_p7" : "Minhas futuras formações serão voltadas para análise de dados e Machine/Deep Learning."
 
         
         
         ,"formacao": "Formação Acadêmica"
         ,"formacao_p1":"Engenheiro de Controle e Automação - Universidade Estácio de Sá - Julho 2019"
-        ,"formacao_p2":"Cursando MBA em gestão de projetos"
+        ,"formacao_p2":""
 
         ,"processos": "Processos e Projetos"
         ,"programacao": "Prog. e Cloud Computing"
@@ -49,7 +49,7 @@
         ,"dados5": "Tableau"
         ,"dados6": "Power BI"
         ,"dados7": "VBA MACROS"
-        ,"dados8": ""
+        ,"dados8": "Mongo DB"
         ,"dados9": ""
         ,"dados10": ""
 
@@ -92,26 +92,26 @@
 
         ,"projetos":"Projetos"
 
-        ,"titulo_proj_1": "Planilha de Cobranças"
-        ,"desc_proj_1": "Criou uma Planilha com Macro Vinculada a banco de dados SQL Server. Esta planilha está sendo utilizada em projeto do recebíveis da DASA para padronização do processo de cobrança Nacional."
+        ,"titulo_proj_1": "Orquestrador de RPA"
+        ,"desc_proj_1": "Site orquestrador de Bots de Consulta de Elegibilidade, Senha, Postagem de Recursos e XML para agilizar os processos de recebíveis da DASA."
         ,"status_proj_1":""
-        ,"tecnologias_1": "EXCEL | VBA | SQL SERVER"
+        ,"tecnologias_1": "Python | DJANGO | SELENIUM | SQL SERVER | MS AZURE | BOOTSTRAP 4"
         ,"proj_link_1":"DASA"
 
-        ,"titulo_proj_2": "Site Orquestrador de RPA"
-        ,"desc_proj_2": "Criou de um site orquestrador de Bots de Consulta de Elegibilidade, Senha, Postagem de Recursos e XML para agilizar os processos de recebíveis da DASA."
+        ,"titulo_proj_2": "App de Fluxo de Caixa"
+        ,"desc_proj_2": "App de acompanhamento de fluxo de caixa para substituir processo que é realizado por email. Os dados financeiros inputados no sistema são guardando em nuvem para eventuais auditorias."
         ,"status_proj_2":""
-        ,"tecnologias_2": "Python | DJANGO | SELENIUM | SQL SERVER | MS AZURE | BOOTSTRAP 4"
+        ,"tecnologias_2": "POWERAPPS | MS SHAREPOINT | POWER AUTOMATE | SQL SERVER"
         ,"proj_link_2":"DASA"
 
-        ,"titulo_proj_3": "Site de Fluxo de Caixa"
-        ,"desc_proj_3": "Está desenvolvendo de um sistema de acompanhamento de arquivos de fluxo de caixa da DASA, definindo regra de SLA para o fluxo e novos indicadores para garantir a assertividade dos analistas. Os dados financeiros inputados no sistema são guardando em nuvem para eventuais auditorias."
+        ,"titulo_proj_3": "Planilha de Cobranças"
+        ,"desc_proj_3": "Planilha com Macro que lê e inputa dados no banco de dados SQL Server."
         ,"status_proj_3":""
-        ,"tecnologias_3": "MS SHAREPOINT | POWER AUTOMATE | MS OUTLOOK | SQL SERVER | POWER BI"
+        ,"tecnologias_3": "EXCEL | VBA | SQL SERVER"
         ,"proj_link_3":"DASA"
 
         ,"titulo_proj_4": "Painéis de BI com Tableau"
-        ,"desc_proj_4": "Criação de painéis executivos de recebíveis usando Tableau"
+        ,"desc_proj_4": "Painéis de indicadores executivos usando Tableau"
         ,"status_proj_4":""
         ,"tecnologias_4": "TABLEAU | EXCEL | SQL SERVER"
         ,"proj_link_4":"DASA"
